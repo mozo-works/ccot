@@ -1,0 +1,22 @@
+# Meta
+name: 비주얼씨어터컴퍼니 꽃
+description: ‘비주얼씨어터 꽃’은 시각예술과 공연예술이 통합된 시각연극 Visual Theater를 추구하는 공연예술단체입니다.
+url: http://visualtheater.kr
+baseurl: ''
+
+timezone: 'Asia/Seoul'
+permalink: pretty
+
+# Build
+exclude:
+  - .jekyll-metadata
+  - .gitignore
+  - .ruby-version
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

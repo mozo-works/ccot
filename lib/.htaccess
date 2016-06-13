@@ -1,0 +1,7 @@
+AuthName "flower library" 
+AuthType Basic 
+AuthUserFile /home/hosting_users/visualtheater/www/lib/.htpasswd
+AuthGroupFile /dev/null 
+ErrorDocument 401 
+
+require valid-user 

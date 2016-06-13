@@ -1,0 +1,23 @@
+window.onload=function(){
+if(!NiftyCheck())
+  return;
+  Rounded("div#header","all","#fff","#c69","smooth");
+  Rounded("div#node","all","#fff","#efefef","smooth");
+  Rounded("div#footer","all","#fff","#ccc","smooth");
+  Rounded("div#sub_menu","all","#fff","#ccc","smooth");
+  Rounded("div#side_image","all","#fff","#f93","smooth");
+  Rounded("div#text","all","#fff","#ebebeb","smooth");
+  Rounded("ul#wk_info","all","#fff","#f93","smooth");
+  Rounded("ul#wk_misc","all","#fff","#c69","smooth");
+  Rounded("div#keyword","all","#fff","#9acd32","smooth");
+  Rounded("div#trailer","all","#fff","#000","smooth");
+  Rounded("div#pic_box","all","#fff","#000","smooth");
+  Rounded("div#download","all","#9acd32","#c4efa1","smooth");
+  Rounded("div#side_menu","all","#fff","#9acd32","smooth");
+  Rounded("div#notice","all","#fff","#9acd32","smooth");
+  Rounded("div#inst_side","all","#fff","#f93","smooth");
+  Rounded("div#index_image","all","#fff","#ffa500","smooth");
+  Rounded("div#index_text","all","#fff","#ebebeb","smooth");
+  Rounded("div#spacer","all","#fff","#9acd32","smooth");
+  Rounded("div#performance","all","#fff","#ff9933","smooth");
+}

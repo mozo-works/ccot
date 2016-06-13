@@ -1,0 +1,39 @@
+.L_title {font-weight:bold; font-size:12px; color:#333333;}
+.L_subject {font-size:12px; color:#333333;}
+.L_subjectN {font-weight:bold; font-size:12px; color:#2C8CB9;}
+.L_num {font-size:11px; color:#666666;}
+.L_date {font-size:11px; color:#666666;}
+.L_hit {font-size:11px; color:#666666;}
+.L_good {font-size:11px; color:#666666;}
+.L_nogood {font-size:11px; color:#666666;}
+.L_comment_cnt {font-size:11px; color:#ff4e00;}
+.L_category {font-size:11px; color:#eac2d6;}
+.L_page {font-size:11px; color:#999999; text-decoration:none;}
+.L_pageing {font-size:11px; color:orange; text-decoration:none;}
+.L_select {background-color:#fdeff6; font-size:11px}
+.L_input {font-size:11px}
+
+.V_subject {font-weight:bold; font-size:12px; color:#333333;}
+.V_subcateline {font-size:12px; color:#CCCCCC;}
+.V_category {font-size:11px; color:#999999;}
+.V_file {font-size:12px; color:#333333;}
+.V_fileinfo {font-size:12px; color:#333333;}
+.V_link {font-size:12px; color:#333333;}
+.V_name {font-size:12px; color:#333333;}
+.V_ip {font-size:11px; color:#999999;}
+.V_comment {font-size:11px; color:#ff4e00;}
+.V_list {font-size:11px; color:#666666;}
+.V_line {font-size:11px; color:#CCCCCC;}
+.V_hit {font-size:12px; color:#333333;}
+.V_date {font-size:12px; color:#333333;}
+.V_good {font-size:12px; color:#333333;}
+.V_nogood {font-size:12px; color:#333333;}
+.V_trackback {font-size:12px; color:#333333;}
+.V_trackback_url {font-size:12px; color:#333333;}
+.V_signature {font-size:12px; color:#333333;}
+.V_content {font-size:12px; color:#333333;}
+
+.C_comment_date {font-size:11px; color:#999999;}
+.C_comment_ip {font-size:11px; color:#999999;}
+.C_content {font-size:12px; color:#333333;}
+.C_comment {font-size:12px; color:#ff4e00;}

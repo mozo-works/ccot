@@ -1,0 +1,1404 @@
+@CHARSET "UTF-8";
+
+body {
+  margin:0; padding:0;
+}
+
+a:link,
+a:active,
+a:visited,
+a:hover
+{
+  font-size: 11px;
+}
+
+img
+{
+  border: 0;
+}
+
+#header		{
+        position:relative;
+        width:750px;
+        text-align:left;
+        background-color:#c69;
+        margin: 0 auto;
+        margin-top:20px;
+      }
+
+#header	h1	{
+        font-size:10pt;
+      }
+
+#header h1	{
+        margin:7px 0 3px 10px;
+        z-index:100;
+      }
+
+#header li a
+      {
+        color:white;
+        font-size:10pt;
+        font-weight:bold;
+      }
+
+#header ul {
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 0;
+        padding: 0 15px 0 0;
+        line-height:130%;
+        list-style: none;
+        z-index: 90; /* below the H1 */
+      }
+
+#header li {
+        float: right;
+        background: transparent url("/img/template/header_tab.gif") 100% -600px no-repeat;
+        padding: 0 6px 0 0;
+        margin: 0 1px 0 0;
+      }
+
+#header ul a {
+        float: left;
+        display: block;
+        padding: 6px 4px 4px 10px;
+        background: transparent url("/img/template/header_tab.gif") 0% -600px no-repeat;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+      }
+
+#header ul li:hover a
+      {
+        background-position: 0% -400px;
+      }
+
+#header ul li:hover
+      {
+        background-position: 100% -400px;
+      }
+
+.flower li#menu_f,
+.works li#menu_w,
+.performance li#menu_p,
+.inquiry li#menu_i,
+.talk li#menu_t,
+.press li#menu_s {
+background-position: 100% -200px;
+}
+
+.flower li#menu_f a,
+.works li#menu_w a,
+.performance li#menu_p a,
+.inquiry li#menu_i a,
+.talk li#menu_t a,
+.press li#menu_s a {
+background-position: 0% -200px;
+color: #c69;
+}
+
+.flower li#menu_f,
+.works li#menu_w,
+.performance li#menu_p,
+.inquiry li#menu_i,
+.talk li#menu_t,
+.press li#menu_s {
+position:relative;
+top:1px;
+}
+
+.flower li#menu_f:hover,
+.works li#menu_w:hover,
+.performance li#menu_p:hover,
+.inquiry li#menu_i:hover,
+.talk li#menu_t:hover,
+.press li#menu_s:hover {
+background-position: 100% 0%;
+}
+
+.flower li#menu_f:hover a,
+.works li#menu_w:hover a,
+.performance li#menu_p:hover a,
+.inquiry li#menu_i:hover a,
+.talk li#menu_t:hover a,
+.press li#menu_s:hover a {
+background-position: 0% 0%;
+color: red;
+}
+
+#contents	{
+  margin: 10px auto;
+  padding:0;
+  width:750px;
+  clear:right;
+}
+
+#footer		{
+  width:750px;
+  text-align:left;
+  clear:both;
+  margin:0 auto; padding:0;
+  background:#ccc;
+}
+
+#footer img	{
+        margin:10px;
+      }
+
+.box		{
+        padding: 0.5em 1em;
+      }
+
+.purple		{
+        color:purple;
+      }
+.white		{
+        color:white;
+      }
+
+.fl			{
+        float:left;
+      }
+
+#text		{
+        font-size:9pt;
+        float:left;
+        text-align:left;
+        background-color:#ebebeb;
+        width:750px;
+        margin:7px 0;
+      }
+
+#text p, #text h3		{
+        line-height:200%;
+        margin-top:1em;
+        margin-bottom:2em;
+        margin-right:1em;
+        margin-left:1em;
+      }
+
+.flower #text
+      {
+        font-size:9pt;
+        padding-bottom:2em;
+        margin:10px 0;
+        text-align:left;
+        background-color:#ebebeb;
+        float:right;
+        width:530px;
+        clear:left;
+      }
+
+.flower #text p		{
+        line-height:200%;
+        margin-top:1em;
+        margin-bottom:2em;
+        margin-left:2em;
+        margin-right:1em;
+      }
+
+.flower h2, .works h2
+      {
+        margin-left:20px;
+        letter-spacing:-1px;
+        font-size:18pt;
+      }
+
+#keyword	{
+        margin: 10px 0;
+        text-align:left;
+        font-size:9pt;
+        line-height:160%;
+        width:750px;
+        background: #9acd32 url('/img/flower/flower.png') no-repeat;
+      }
+/*
+.inquiry #keyword
+      {
+        background: #9acd32 url('/img/inst/main.gif') bottom right no-repeat;
+      }
+*/
+
+#keyword h2	{
+        color:white;
+        font-family: 'HY견고딕, 궁서';
+        line-height:160%;
+      }
+
+#keyword p	{
+        width:380px;
+        padding:20px;
+      }
+
+#download	{
+        width:170px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        float:left;
+        background-color:#c4efa1;
+      }
+
+.flower .download2,
+/*.inquiry .download2, */
+.works .download2
+      {
+        padding: 15px 0px;
+        text-align:left;
+        margin-left:15px;
+        background: #c4efa1 url('/img/flower/download_back.gif') top right no-repeat;
+      }
+
+hr			{
+        visibility:hidden;
+        margin:0;
+        clear:both;
+      }
+
+#text h1	{
+        color: #c39;
+        font-weight: bold;
+        font-size:28pt;
+        margin-bottom:2.7em;
+      }
+
+#text h2	{
+        color: #c36;
+        font-weight: bold;
+        display:inline;
+      }
+
+#text h3	{
+        color: #c39;
+        font-weight: bold;
+        margin-left:2em;
+        margin-right:2em;
+        margin-bottom:1em;
+        font-size:large;
+        letter-spacing: -0.2em;
+      }
+
+#text h4	{
+        color: #c36;
+        font-family:"HY헤드라인M";
+        font-weight: bold;
+        font-size:14pt;
+        margin-left:2em;
+        margin-right:2em;
+        margin-bottom:1em;
+        display:inline;
+        letter-spacing: -0.2em;
+      }
+
+.flower #text h2, h3
+      {
+        font-family:"HY헤드라인M";
+      }
+
+.flower #text h3
+      {
+        
+      }
+
+.flower #text h4
+      {
+        font-family:"HY헤드라인M";
+        font-weight: 100;
+        font-size:16pt;
+        margin-left:1em;
+        margin-right:1em;
+        margin-bottom:-10px;
+        letter-spacing: -0.1em;
+      }
+
+.menu	{
+        color:#111;
+        margin:0;
+        padding:0;
+        text-align:left;
+      /*	background-color:#ccc;
+      */
+        list-style:none;
+        line-height:200%;
+        margin-top:10px;
+        width:220px;
+        float:right;
+        margin-left:0px;
+      }
+/*
+.inquiry .menu
+      {
+        float:none;
+      }
+*/
+.menu li	{
+        margin-left:10px;
+      }
+
+.menu a:link,
+.menu a:visited,
+.menu a:active
+      {
+        font-size:9pt;
+        text-decoration:underline;
+        color:black;
+        font-weight:bolder;
+      }
+
+.menu a:hover
+      {
+        color:#c36;
+        font-weight:bolder;
+        text-decoration:underline;
+      }
+
+.menu li p	{
+        font-weight:100;
+        font-size:8pt;
+        line-height:140%;
+      }
+
+#side_menu	{
+        color:#c39;
+        margin:0;
+        padding:0;
+        text-align:left;
+        list-style:none;
+        line-height:200%;
+        margin-top:10px;
+        width:750px;
+        clear:right;
+        background:#9acd32;
+      }
+
+#side_menu li
+      {
+        display:inline;
+        margin-left:20px;
+      }
+
+#side_menu,
+#side_menu a:link,
+#side_menu a:visited,
+#side_menu a:active
+      {
+        font-size:9pt;
+        text-decoration:none;
+        color:black;
+        font-weight:bolder;
+      }
+
+#side_menu a:hover
+      {
+        color:#c36;
+        font-weight:bolder;
+        text-decoration:underline;
+      }
+
+#side_image	{
+        background-color:#f93;
+        position:relative;
+        float:left;
+        width:210px;
+        margin-top:10px;
+        margin-left:0;
+      }
+
+#title,
+#title a:link,
+#title a:visited,
+#title a:active
+      {
+        font-size:12pt;
+        text-decoration:underline;
+        color:#fff;
+        font-weight:bolder;
+        display:inline;
+      }
+
+#title a:hover
+      {
+        color:#c36;
+        font-weight:bolder;
+        text-decoration:underline;
+      }
+
+#wk_info	{
+        width:260px;
+        float:right;
+        margin:0;
+        padding:0;
+        text-align:left;
+        line-height:150%;
+        margin-top:10px;
+        margin-left:5px;
+        font-size:9pt;
+        list-style:none;
+        background-color:#f93;
+        color:white;
+        font-weight:bold;
+      }
+
+#wk_info li	{
+        margin-left:10px;
+      }
+
+#wk_misc	{
+        margin:0;
+        padding:0;
+        width:260px;
+        margin-top:5px;
+        text-align:left;
+        float:right;
+        list-style-type:none;
+        background-color:#c69;
+      }
+
+#wk_misc li {
+        display:inline;
+        margin-left:5px;
+      }
+
+#wk_misc,
+#wk_misc a:link,
+#wk_misc a:visited,
+#wk_misc a:active,
+#wk_misc a:hover
+      {
+        font-size:9pt;
+        font-weight:bold;
+        line-height: 150%;
+        color:white;
+        text-decoration:none;
+      }
+
+#wk_misc a:hover
+      {
+        color:orange;
+      }
+      
+#work-doc {
+	width: 230px;
+	float: left;
+	margin: 5px 20px;
+}      
+
+.works #text
+      {
+        clear:both;
+      }
+
+.works #text p {
+        margin-left:5em;
+        margin-right:2em;
+      }
+
+.works div.brief
+      {
+        text-align:left;
+        width:330px;
+        margin:0;
+        padding:0;
+      }
+
+.works div.brief h3
+      {
+        margin-left:10px;
+        padding:0;
+        border-bottom:1px solid #c69;
+        color:#c69;
+        font-weight:bold;
+      }
+
+.works div.brief ul
+      {
+      }
+
+.works div.brief ul li
+      {
+        text-align:left;
+        font-size:9pt;
+        line-height:160%;
+      }
+
+.works div#text
+      {
+        width:750px;
+      }
+
+.works ol
+      {
+        text-align:left;
+        font-size:9pt;
+        clear:left;
+      }
+
+.works ol li
+      {
+        margin-bottom:10px;
+      }
+
+.works div.review
+      {
+        font-size:9pt;
+        clear:left;
+        text-align:left;
+        padding:10px;
+      }
+
+.works h3
+      {
+        clear:left;
+      }
+
+.works #work_info h3
+      {
+        margin:0;
+        margin-top:10px;
+        float:left;
+      }
+
+.works ul#review_list
+      {
+        text-align:left;
+        font-size:9pt;
+        clear:left;
+        line-height:200%;
+        list-style: disc outside;
+        padding-right:300px;
+      }
+
+.works ul#review_list li
+      {
+        margin-bottom:15px;
+      }
+
+
+#past_pm	{
+        width: 750px;
+      }
+
+#pm_info	{
+        line-height:180%;
+        text-align:left;
+        font-size:9pt;
+        float:left;
+        margin:20px;
+      }
+
+.th
+      {
+        background-color:#ccc;
+      }
+
+#banner
+      {
+        text-align:left;
+        padding-top:15px;
+      }
+
+#banner_mini
+      {
+        float:right;
+      }
+
+#pm_poster
+      {
+        width:350px;
+        float:left;
+      }
+
+#inst_title {
+        margin-top:15px;
+        margin-right:20px;
+      }
+/*
+.inquiry p
+      {
+        font-size:9pt;
+        text-align:left;
+        line-height:150%;
+        padding:10px 20px;
+        padding-right: 80px;
+        clear:right;
+      }
+
+.inquiry .menu
+      {
+        width:750px;
+        text-align:left;
+      }
+
+.inquiry div#text h4
+      {
+        float:none;
+        color:#c69;
+        text-align:left;
+        margin:0;
+        display:block;
+        margin:10px;
+      }
+
+.inquiry div#text h5
+      {
+        color:#c69;
+        text-align:left;
+        margin:0;
+        display:block;
+      }
+*/
+#description
+      {
+        padding:20px;
+      }
+
+#trailer	{
+        background:#000;
+        width:750px;
+        overflow: hidden;
+        clear: both;
+        margin: 0; padding:0;
+        margin-top: -15px;
+        text-align:right;
+      }
+
+#trailer p {
+  color: #999;
+}
+
+
+body.reservation ul
+      {
+        float:right;
+        margin:20px;
+      }
+
+body.reservation li
+      {
+        display:inline;
+        margin:0 10px;
+      }
+
+body.reservation h2
+      {
+        text-align:left;
+        margin: 20px;
+        font-family:"HY헤드라인M";
+      }
+
+#rsv_box	{
+        background:#fff;
+      }
+
+#pic_box	{
+        background:#000;
+        width:750px;
+        clear:left;
+        margin-top: 5px;
+        text-align: center;
+      }
+
+.flower table
+      {
+        border-collapse:collapse;
+        border: 1px solid #000;
+        margin: 30px;
+      }
+
+.flower td
+      {
+        border: 1px solid #000;
+        padding:10px;
+      }
+/*
+.inquiry h2
+      {
+        text-align:left;
+      }
+*/
+
+
+
+
+address		{
+        text-align:left;
+        font-size:9pt;
+        line-height:160%;
+        margin-top:20px;
+      }
+
+#inst_side ol.menu
+      {
+        width:190px;
+        line-height:110%;
+      }
+
+#inst_side	{
+        float:left;
+        width:210px;
+        margin-top:10px;
+        background-color:#f93;
+      }
+
+#inst_side	li
+      {
+        margin: 20px;
+        margin-right:0;
+      }
+
+#inst_side img
+      {
+        margin: 30px 0;
+      }
+
+.download2 h3, #keyword h3
+      {
+        margin:0;
+        line-height:150%;
+        font-family:굴림;
+        text-decoration:underline;
+      }
+
+#keyword h3	{
+
+      }
+
+.history	{
+        font-size:9pt;
+        display:block;
+
+      }
+
+.instt		{
+        margin-left:30px;
+        padding-top:10px
+      }
+
+.instt h5
+      {
+        font-family:'HY헤드라인M';
+        font-size:16pt;
+      }
+
+.instt img	{
+        margin-bottom:20px;
+      }
+
+#keyword h4
+      {
+        text-align:right;
+        margin-right:20px;
+        font-weight:bolder;
+      }
+
+form		{
+        margin:0;
+      }
+
+div#adm_info
+      {
+        font-size: 9pt;
+        line-height: 200%;
+      }
+
+.flower table
+      {
+        border:0;
+        width:470px;
+        font-size:9pt;
+        text-align:left;
+        margin:10px 20px;
+      }
+
+.flower table caption
+      {
+        font-size:14pt;
+        font-family:'HY헤드라인M';
+        background:#9acd32;
+        padding:20px;
+      }
+
+.flower table thead
+      {
+        background-color:orange;
+      }
+
+.flower table th
+      {
+        padding:10px;
+      }
+
+
+.flower table tbody td
+      {
+        padding: 7px;
+        background: #ffffff;
+        border: 1px solid #ebebeb;
+      }
+
+.flower table tfoot
+      {
+        font-size: 10pt;
+        font-family: 'HY헤드라인M';
+        background: #9acd32;
+        padding: 10px;
+      }
+
+.flower table td
+      {
+        border:0;
+      }
+
+#index_image
+      {
+        width: 196px;
+        padding: 0;
+        margin: 0;
+        border: 0;
+      }
+
+#index_text	{
+        font-size: 9pt;
+        line-height: 160%;
+        background-color: #ebebeb;
+        width: 280px;
+      }
+
+#index_text p
+      {
+        margin-left: 20px;
+      }
+
+textarea	{
+        width:100%;
+      }
+
+label		{
+        font-size:9pt;
+        margin-right:30px;
+      }
+
+
+/* 시 게시판 */
+
+.poem_prose table
+      {
+        margin:0;
+        padding:0;
+      }
+
+.poem_prose table td
+      {
+        padding:0;
+      }
+
+.poem_prose textarea
+      {
+        width:720px;
+      }
+
+.flower #c_text
+      {
+        padding: 30px;
+        padding-left: 30px;
+        padding-top: 150px;
+        font: 12pt/180% HY신명조, 바탕;
+        word-spacing: 2px;
+        letter-spacing: -1px;
+        margin: 1em 2em;
+      }
+
+.flower #content h3
+      {
+        float:left;
+      }
+
+#text-info
+      {
+        float: right;
+        list-style-type: none;
+      }
+
+#text-info li
+      {
+        text-align: left;
+      }
+
+#flogin
+{
+  padding: 2em;
+}
+
+#flogin label
+{
+  width: 4em;
+}
+
+#flogin input
+{
+  border: 0;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  margin-right: 20px;
+  font-size: 9pt;
+}
+
+.date,
+.hit
+{
+  color: #999;
+  font: 9px "Verdana";
+  line-height: 130%;
+  text-align: center;
+}
+
+.name,
+.subject
+{
+  font-family: "돋움","굴림","arial","helvetica","sans-serif";
+  font-size: 11px;
+  color: #999;
+  text-decoration: none;
+}
+
+#board caption
+{
+  border: thin dotted #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  background: #fff;
+  font-size: 11px;
+  font-family:"tahoma", "굴림";
+  text-decoration: none;
+}
+
+#board td
+{
+  border: 0;
+  height: 35px;
+  vertical-align: bottom;
+  padding-bottom: 8px;
+  border-bottom: 1.5px dotted #ccc;
+}
+
+#navigation
+{
+  width: 730px;
+  border-bottom: 1px solid #999;
+  padding: 10px;
+  padding-top: 15px;
+  font-family: "돋움","굴림","arial","helvetica","sans-serif";
+  font-size: 11px;
+}
+
+span.current
+{
+  background: #c69;
+  padding: 5px;
+  color: #fff;
+}
+
+#misc
+{
+  width:750px;
+  text-align:right;
+  margin: 0 auto;
+  margin-top:10px;
+  margin-bottom:-15px;
+  font-family: "돋움","굴림","arial","helvetica","sans-serif";
+  font-size: 10px;
+}
+
+#misc, #post,
+#misc a:link, #post a:link,
+#misc a:visited, #post a:visited,
+#misc a:active, #post a:active,
+#misc a:hover, #post a:hover
+{
+  font-family: "돋움","굴림","arial","helvetica","sans-serif";
+  font-size: 11px;
+  text-decoration: none;
+}
+
+#fsearch, #fsearch input, #fsearch select
+{
+  font-family: "돋움","굴림","arial","helvetica","sans-serif";
+  font-size: 11px;
+  text-decoration: none;
+}
+
+#fsearch
+{
+  text-align: right;
+}
+
+.post
+{
+  background-color: #c69;
+  color: #fff;
+  padding: 1ex;
+}
+
+fieldset
+{
+  width: 680px;
+  display: block;
+  margin-left: 35px;
+  border: 1px dotted #e5e5e5;
+  margin-top: 10px;
+  padding: 0;
+  background: #fff;
+}
+
+fieldset legend
+{
+  font-family: "돋움","굴림","arial","helvetica","sans-serif";
+  font-size: 11px;
+  color: #c69;
+  font-weight: bold;
+  background-color: #fffaf0;
+  padding: 1em;
+}
+
+/* 글쓰기 textarea */
+#wr_contents
+{
+  padding: 10px;
+  padding-left: 35px;
+  background: transparent;
+  font-family: "돋움","굴림","arial","helvetica","sans-serif";
+  font-size: 11px;
+}
+
+#wr_content
+{
+  width: 500px;
+  padding: 10px;
+  line-height: 170%;
+  background: transparent;
+  font-family: "돋움","굴림","arial","helvetica","sans-serif";
+  font-size: 11px;
+  border: 1px solid #ccc;
+}
+
+.temp ul
+{
+  list-style: none;
+  padding: 0;
+}
+
+.temp ul li
+{
+  margin: 2px 0;
+}
+
+
+#wr_info
+{
+  font-family: "돋움","굴림","arial","helvetica","sans-serif";
+  font-size: 11px;
+  list-style: none;
+}
+
+#wr_misc
+{
+  padding-top: 0;
+  width: 120px;
+  margin-right: 5px;
+  float: left;
+  margin-left: 17px;
+
+}
+
+
+#fwrite label
+{
+  width: 60px;
+  display: block;
+  float: left;
+  font-family: "돋움","굴림","arial","helvetica","sans-serif";
+  font-size: 11px;
+  font-weight: normal;
+  color: #000;
+}
+
+#wr_misc label
+{
+  width: 30px;
+}
+
+#wr_misc ul li
+{
+  margin: 0;
+}
+
+
+#fwrite input
+{
+  border: 0;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  padding: 2px;
+  height: 20px;
+  font-family: "돋움","굴림","arial","helvetica","sans-serif";
+  font-size: 11px;
+}
+
+#wr_info input
+{
+  margin-right: 40px;
+}
+
+.temp h2
+{
+  font-family: "돋움","굴림","arial","helvetica","sans-serif";
+  font-size: 11px;
+  border-bottom: thin dotted #ccc;
+  padding: 10px 0;
+  padding-left: 35px;
+}
+
+#write_link
+{
+  display: block;
+  margin: 0;
+  padding: 0 10px;
+  text-align: left;
+  float: left;
+}
+
+#norobot
+{
+  font-family: "돋움","굴림","arial","helvetica","sans-serif";
+  font-size: 11px;
+  padding-left: 35px;
+}
+
+#wr_attach
+{
+  width: 520px;
+}
+
+#wr_attach li
+{
+  display: block;
+  clear: both;
+}
+
+#wr_post
+{
+  float: right;
+  width: 165px;
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+#wr_post input
+{
+  color: #fff;
+  font-weight: bold;
+  background-color: #c69;
+  border-bottom: 0;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#txt_handle
+{
+  text-align: right;
+  padding: 1em;
+  padding-right: 25px;
+}
+
+body.index table
+{
+  border: thin solid #000;
+  margin-top: 20px;
+  border-collapse: collapse;
+  padding: 0;
+}
+
+body.index table td
+{
+  border: 0;
+}
+
+.talk table td
+{
+  border: 0;
+}
+
+#spacer
+{
+  background-color: #9acd32;
+  width: 250px;
+  margin-left: 10px;
+}
+
+form#mailinglist, fieldset#myheader
+{
+  width: 280px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+#myheader
+{
+  border: 1px dotted #c69;
+  margin: 0;
+  padding: 0;
+}
+
+#myheader ol li
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+#myheader legend
+{
+  background-color: #fffaf0;
+}
+
+div.element
+{
+  display: inline;
+}
+
+#node {
+  background: #efefef;;
+  overflow: auto;
+}
+
+#repertory {
+  margin:0; padding:0;
+  width: 100%;
+  list-style: none;
+  overflow: auto;
+}
+
+#repertory .thumb {
+  margin: 10px; padding: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 170px;
+  float: left;
+  overflow: hidden;
+}
+
+#repertory .description {
+  margin: 10px; padding: 0;
+  margin-right: 15px;
+  margin-bottom: 0;
+  width: 170px;
+  float: left;
+  font-size: small;
+  line-height: 1.5;
+}
+.description h3 {
+  font-size: small;
+  font-family: dotum;
+  margin:0; padding:0;
+}
+
+/* 메인 페이지 */
+
+.lastest-block {
+  margin:0; padding:0;
+}
+
+.lastest-block h3,
+.lastest-block a,
+.lastest-block p,
+.posts li a {
+  color: #fff;
+  font-family: dotum;
+  margin:0; padding:0;
+  font-size: 11px;
+}
+
+.lastest-block h3 {
+  width: 95%;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #fff;
+}
+
+.posts {
+  margin:0; padding:0;
+  list-style: none;
+}
+
+.front .posts li {
+  width: 95%;
+  height: 15px;
+  line-height: 1.3;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.lastest-block h3,
+.posts,
+.lastest-block p {
+  margin-left: 10px;
+}
+
+#node .lastest-block h3,
+#node .lastest-block a,
+#node .posts li a,
+#node p {
+  color: #000;
+}
+
+.front #node h3 {
+  border-bottom: 1px solid #000;
+}
+
+#talk, #press, #inquiry {
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+}
+
+#talk {
+  width: 220px;
+}
+
+#index-header {
+  width: 750px;
+  height: 230px;
+  clear: both;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+#notice {
+  width: 220px;
+  background: #9acd32;
+  color: #fff;
+  float: right;
+  padding: 0;
+}
+
+.front #notice .posts {
+  height: 185px;
+}
+
+#performance {
+  width: 520px;
+  background: #ff9933;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.contact h2, .contact p, .contact address, .contact strong { margin-left: 2em; }
+.contact address > strong { margin:0;}

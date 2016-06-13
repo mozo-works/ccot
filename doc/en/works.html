@@ -1,0 +1,123 @@
+<?
+$g4_path = "../../gnu4";
+$lang = "en";
+include_once($_SERVER['DOCUMENT_ROOT'].'/gnu4/common.php');
+
+//변수 정리
+  $g4['title'] = "The works of The Flower";
+  $Subject = "";
+  $Keywords = "";
+
+// 상단 파일
+  include_once("head.php");
+
+  if(!$wk_id) {
+?>
+  <div id="keyword">
+    <h2>Repetories of CCOT</h2>
+    <div id="download">
+      <div class="download2">
+        <h3>Downloads</h3>
+        <a href="/files/programs.pdf">Program book</a><br />
+        <a href="/files/en/self-portrait.pdf">The Self-portrait</a><br />
+        <a href="/files/en/wolf.pdf">The Clothes of Wolf</a><br />
+        <a href="/files/en/dance.pdf">In the paint, dance</a><br />
+        <a href="/files/en/diaper.pdf">The Diaper Man</a><br />
+        <a href="/files/en/shadow.pdf">From the shadow</a><br />
+        <a href="/files/en/funeral.pdf">Mother’s Funeral</a>
+      </div>
+    </div>
+    <hr />
+  </div>
+ <div id="node">
+    <ul id="repertory">
+      <li class="thumb"><a href="/doc/en/works.html?wk_id=12"><img src="/img/work/self/s2.jpg" width="220px" /></a></li>
+      <li class="description"><h3><a href="/doc/en/works.html?wk_id=12">Painting Performance “The Self-portrait”</a></h3><p>“ Painting Journey for Looking for Oneself ”
+- Painting, Poem, Video, Live music</p></li>    
+      <li class="thumb"><a href="/doc/en/works.html?wk_id=11"><img src="/img/work/wolf/w2.jpg" width="220px" /></a></li>
+      <li class="description"><h3><a href="/doc/en/works.html?wk_id=11">Poetry Performance 'The Clothes of Wolf'</a></h3><p>Poems + Objects & Installation + Body & Movement + Strong voice + Live music</p></li>    
+      <br style="clear: both;" />    
+      <br style="clear: both;" />
+      <li class="thumb"><a href="/doc/en/works.html?wk_id=4"><img src="/img/work/dance/d2.jpg" width="220px" /></a></li>
+      <li class="description"><h3><a href="/doc/en/works.html?wk_id=4"> Painting Performance ‘In the paint, Dance’</a></h3><p>The struggle between the one who lock up and another who escape from imprisonment.</p></li>
+      <li class="thumb"><a href="/doc/en/works.html?wk_id=10"><img src="/img/work/diaper/d2.jpg" width="220px" /></a></li>
+      <li class="description"><h3><a href="/doc/en/works.html?wk_id=10">The Diaper Man</a></h3><p>"A Farce on the Diaper-Objet", "A Sensible Nonsensical Comedy of a newly turned father!"</p></li>
+      <br style="clear: both;" />      
+      <li class="thumb"><a href="/doc/en/works.html?wk_id=1"><img src="/img/work/shadow/s2.jpg" width="220px" /></a></li>
+      <li class="description"><h3><a href="/doc/en/works.html?wk_id=1">Shadow Theater of Sculpture-Puppet, From the shadow</a></h3><p>A Sculpture-shadow theater with flashlights and large screen</p></li>            
+      <li class="thumb"><a href="/doc/en/works.html?wk_id=6"><img src="/img/work/funeral/f2.jpg" width="220px" /></a></li>
+      <li class="description"><h3><a href="/doc/en/works.html?wk_id=6">Video Reflex Theater, Mother’s Funeral</a></h3><p>'It's You that imprisons youself!' - A story about mirror with a sad body</p></li>
+      <br style="clear: both;" />
+    </ul>
+  </div>
+<?php
+  } else {
+  // 작품 변수 정리
+  $work = sql_fetch(" select * from flower_works_en where id = $wk_id ");
+  $work_title = $work['img'];
+  $work['img'] = $work['img']."/".substr($work['img'],0,1)."2";
+?>
+    <div id="work_info">
+      <ul id="side_menu">
+        <li><h2 id="title"><a href="/doc/en/works.html">Works</a></h2></li>
+		<li><a title="Painting Performance “The Self-portrait”'" href="/doc/en/works.html?wk_id=12">The Self-portrait</a></li>
+		<li><a title="Poetry Performance 'The Clothes of Wolf''" href="/doc/en/works.html?wk_id=11">The Clothes of Wolf</a></li>
+        <li><a title="Painting Performance ‘In the paint, Dance’" href="/doc/en/works.html?wk_id=4">In the paint, Dance</a></li>
+        <li><a title="The Diaper Man" href="/doc/en/works.html?wk_id=10">The Diaper Man</a></li>
+        <li><a title="Shadow Theater of Sculpture-Puppet, From the shadow" href="/doc/en/works.html?wk_id=1">From the shadow</a></li>
+        <li style="display: block; margin-left: 9em;"><a title="Video Reflex Theater, Mother’s Funeral" href="/doc/en/works.html?wk_id=6">Mother’s Funeral</a></li>
+      </ul>
+      <h3><img src="/img/work/<?=$work['img']?>.jpg" alt="<?=$work['e_title']?>" width="480" /></h3>
+      <ul id="wk_info">
+        <li>Year of Creation : <?=$work['c_year']?></li>
+        <li>Genre : <?=$work['type']?></li>
+        <li>Creator : <?=$work['creator']?></li>
+        <li>Performer : <?=$work['performer']?></li>
+        <li>Duration : <?=$work['r_time']?>"</li>
+        <li>Main materials : <?=$work['objet']?></li>
+      </ul>
+    </div>
+    <ul id="wk_misc">
+      <li>&nbsp;<a href="/doc/en/works.html?wk_id=<?=$wk_id?>&amp;sub=pic"><?php img("work/pic.gif","Photos")?> pics</a></li>
+      <li><a href="/doc/en/works.html?wk_id=<?=$wk_id?>&amp;sub=music"><?php img("work/music.gif","Audio")?> Audio</a></li>
+      <li><a href="/doc/en/works.html?wk_id=<?=$wk_id?>&amp;sub=trailer"><?php img("work/trailer.gif","trailer")?> Trailer</a></li>
+    </ul>
+<?php
+	$work_doc = array(
+		'12' => 'self-portrait.pdf',
+		'11' => 'wolf.pdf',
+		'4' => 'dance.pdf',
+		'10' => 'diaper.pdf',
+		'1' => 'shadow.pdf',
+		'6' => 'funeral.pdf',
+	);
+	
+	$file = '<a href="/files/en/' . $work_doc[$wk_id]. '">'.$work_doc[$wk_id].'</a>';
+
+	
+	if(array_key_exists($wk_id, $work_doc)) {
+?>    
+    <div id="work-doc">Document: <?php echo $file; ?></div>
+<?php
+  }
+?>        
+    
+    <hr />
+
+<?php
+  if(!$sub)	{
+    echo "\t\t<div id=\"text\">\n";
+    echo $xhtml = $wiki->transform($work['form'], "Xhtml");
+    echo $xhtml = $wiki->transform($work['story'], "Xhtml");
+    //키포인트: $work['key_point']<br />
+    //비평</td><td>$work['a_id']<br />
+    echo "\t\t</div>\n";
+    } else {
+
+    $path = $_SERVER['DOCUMENT_ROOT'].'/doc/work/'.$sub.'.php';
+    include_once $path;
+      }
+
+  }
+include_once("tail.php");
+?>

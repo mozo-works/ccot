@@ -1,0 +1,40 @@
+<?php
+
+$g4_path = "../gnu4";
+$doc_path = $_SERVER['DOCUMENT_ROOT'].'/doc';
+include_once($_SERVER['DOCUMENT_ROOT'].'/gnu4/common.php');
+
+//변수 정리
+$g4[title] = "The Flower!";
+$LastModified = filemtime($_SERVER['DOCUMENT_ROOT'].$_SERVER['PHP_SELF']);
+$is_dynamic = "False";
+$Subject = "flower";
+$Keywords = "Visual theater company, 꽃, 시각연극, 오브제극 ";
+
+require_once("head.php");
+?>
+	<h2>연락처</h2>
+
+	<p>기  획  이정은</p>
+	<address style="padding-left: 3em">
+		010-2715-0901<br />
+		eell@naver.com<br />
+	</address>
+
+	<p>대  표  이철성</p>
+	<address style="padding-left: 3em">
+		010-2396-1020<br />
+		namunun@hanmail.net<br />
+	</address>
+
+	<p>
+	<address style="font-style: normal; padding: 2em 0; line-height: 1.5;">
+		주소 : 서울시 종로구 명륜동2가 169-1번지, 3층<br />
+		전화 : 02) 889-3561 / 3562<br />
+		웹사이트 : www.visualtheater.net
+	</address>
+	</p>
+
+<?php
+include_once("tail.php");
+?>

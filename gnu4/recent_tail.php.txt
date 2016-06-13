@@ -1,0 +1,8 @@
+</td>
+    </tr>
+    <tr>
+        <td width="640" height="18" colspan="4" namo_textbox="0,0,0,0,0,0,0,0,0,0" background="../../img/200604/bg_board2.jpg">&nbsp;</td>
+    </tr>
+</table>
+</body>
+</html>

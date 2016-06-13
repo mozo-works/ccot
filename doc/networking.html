@@ -1,0 +1,63 @@
+<?
+$g4_path = "../gnu4";
+include_once($_SERVER['DOCUMENT_ROOT'].'/gnu4/common.php');
+
+//변수 정리
+	$g4[title] = "네트워킹";
+	$LastModified = "2005-06-17 오후 3:26";
+	$is_dynamic = "False";
+	$Subject = "";
+	$Keywords = "Visual theater company, 꽃, 시각연극, 오브제극";
+	$tabtastic = "true";
+
+// 상단 파일 
+	include_once("head.php");
+?>
+	
+	<div id="text">
+		<ul class="tabset_tabs">
+		   <li><a href="#tab1" class="active">Visual Theater 관련 학교들</a></li>
+		   <li><a href="#tab2">문화예술 관련 단체</a></li>
+		   <li><a href="#tab3">기타</a></li>
+		</ul>
+
+		<div id="tab1" class="tabset_content">
+		   	<h2 class="tabset_label">Visual Theater 관련 학교들</h2>
+			<ul>
+				<li>Amsterdam school of the arts : Pays-Bas (www.ahk.nl)</li>
+				<li>A.M.U : Republique Tcheque (www.amu.cz)</li>
+				<li>Ecole des Treteaux : atelier d'expression theatral pour enfants et adolescents (France) (www.chez.com/treteaux)</li>
+				<li>Ernst Busch, Berlin : Informations administratives sur l'ecole de marionnette de Berlin (hfs-ernst-busch@berlin.de)</li>
+				<li>Figurentheater-Kolleg : presentation, programme, Bochum, Allemagne (www.figurentheater-kolleg.de)</li>
+				<li>Institut de theatre : presentation, programme, Espagne (www.diba.es/itheatre/frames.html)</li>
+				<li>Het Firmament, Belgique (www.hetfirmament.be)</li>
+				<li>Le theatre aux mains nues : formation dirigee par Alain Recoing, France (perso.wanadoo.fr/tmn)</li>
+				<li>London School of Puppetry, Royaume-Uni (www.londonschoolofpuppetry.com)</li>
+				<li>Marionetteatern, Stockholm (www.marionetteatern.com)</li>
+				<li>Puri Bahasa, School of Indonesian Yogyarta : ecole indonesienne de Wayang Kulit (indigo.ie/~noelrubt/puppet.htm)</li>
+				<li>Sandglass at Marlboro Summer theater institute, Etats-Unis (www.marlboro.edu/sandglass/)</li>
+				<li>The School of Visual Theatre, Israel (www.visualtheater.co.il)</li>
+				<li>Turku polytechnic - culture puppet theatre : presentation, programme, Finlande (www. turkuamk.fi)</li>
+				<li>Universite du Connecticut, puppet arts  : programme des cours, Etats-Unis (www.puppetarts.uconn.edu)</li>
+				<li>Ecole Superieure Nationale des Arts de la Marionnette : France (www.marionnette.com)</li>
+				<li>Academy of Figurative Theatre : Norway (www.hiof.no/figurteater)</li>
+			</ul>
+		</div>
+
+		<div id="tab2" class="tabset_content">
+		   <h2 class="tabset_label">Tab 2</h2>
+		   Tab 2 Content
+		</div>
+
+		<div id="tab3" class="tabset_content">
+		   <h2 class="tabset_label">Tab 3</h2>
+		   Tab 3 Content
+		</div>
+	</div>
+		<!--
+			<a href="http://www.msiftopia.or.kr" target="_blank">(사)문화세상 이프토피아</a><br /><br />
+			<img src="http://www.msiftopia.or.kr/images/2005/tenjin/tenjin_01.gif" alt="<Tenzin Palmo & Ruth Wieder Magan 이 함께하는 명상 그리고 평화>" />
+		-->
+<?
+include_once("tail.php");
+?>

@@ -10,8 +10,13 @@ include_once("_head.php");
 
 <div id="contents">
   <div id="index-header">
-    <?php echo latest("basic", 'notice', 5, 40); ?>
-    <?php echo front_banner("front", 40); ?>
+    <div id="performance">
+      <div id="current-performance">
+        <img src="/img/flower/banner-201606-large.jpg" alt="2016년 6월 마사지사 공연">
+        <h2 class="text-center">2016년 6월 18, 19일 저녁 7시</h2>
+        <h2 class="text-center"><a href="http://map.naver.com/local/siteview.nhn?code=11622409" target="_blank">대학로 마로니에 공원 (아르코 미술관 앞)</a></h2>
+      </div>
+    </div>
   </div>
   <div id="node">
     <br style="clear: both;" />

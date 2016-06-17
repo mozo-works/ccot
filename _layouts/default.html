@@ -12,9 +12,11 @@
   </head>
   <body>
 
-    <div class="container">
-      {{ content }}
-    </div>
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
 
     <!-- JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

@@ -1,0 +1,15 @@
+---
+layout: default
+
+---
+
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-4">소개</h1>
+  </div>
+</div>
+
+<div class="container">
+  {% capture about %}{% include ko/creation.md %}{% endcapture %}
+  {{ about | markdownify }}
+</div>

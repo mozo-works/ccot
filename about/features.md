@@ -1,4 +1,6 @@
- _
+---
+layout: about
+---
 
 #### 쉿! 말이 필요없다!
 Visual theater!

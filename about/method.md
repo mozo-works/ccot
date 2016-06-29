@@ -1,3 +1,7 @@
+---
+layout: about
+---
+
 ## Visual Theater(Material Theater) 창작방법
 
 작가가 자기 고유의 재료를 선택, 실험하여 하나의 완성된 작품을 만든다.

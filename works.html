@@ -10,7 +10,21 @@ layout: default
 </div>
 
 <div class="container">
-  {% capture description %}{% include self-portrait.md %}{% endcapture %}
-  {{ description | markdownify }}
+  <div class="row">
+    {% assign works = site.works | sort:"wid" | reverse  %}
+    {% for work in works %}
+    <div class="col-md-4">
+      <div class="card">
+        <a href="{{ work.id }}"><img class="card-img-top img-fluid" src="http://placehold.it/400x225" alt="Card image cap"></a>
+        <div class="card-block">
+          <h4 class="card-title"><a href="{{ work.id }}">{{ work.title }}</a></h4>
+          <p class="card-text">{{ work.description }}</p>
+          <a href="{{ work.id }}" class="btn btn-primary">더 알아보기</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
 </div>
 

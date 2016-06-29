@@ -2,6 +2,15 @@
 layout: default
 ---
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.6&appId=1405054873155794";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="jumbotron">
   <div class="container">
     <h1 class="display-4">현재 공연 배너</h1>
@@ -20,7 +29,7 @@ layout: default
         <div class="card-block">
           <h2 class="card-title">작품</h2>
           <p class="card-text">&nbsp;</p>
-          <a href="#" class="btn btn-primary">더 알아보기</a>
+          <a href="/works" class="btn btn-primary">더 알아보기</a>
         </div>
       </div>
     </div>
@@ -30,7 +39,7 @@ layout: default
         <div class="card-block">
           <h2 class="card-title">교육</h2>
           <p class="card-text">&nbsp;</p>
-          <a href="#" class="btn btn-primary">더 알아보기</a>
+          <a href="http://ccotbbat.com" class="btn btn-primary">더 알아보기</a>
         </div>
       </div>
     </div>
@@ -40,9 +49,14 @@ layout: default
         <div class="card-block">
           <h2 class="card-title">소개</h2>
           <p class="card-text">&nbsp;</p>
-          <a href="#" class="btn btn-primary">더 알아보기</a>
+          <a href="/about" class="btn btn-primary">더 알아보기</a>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="fb-page" data-href="https://www.facebook.com/visualtheaterccot/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/visualtheaterccot/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/visualtheaterccot/">비주얼씨어터 꽃</a></blockquote></div>
     </div>
   </div>
 </div>

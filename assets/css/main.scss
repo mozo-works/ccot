@@ -2,3 +2,8 @@
 ---
 @import "variables";
 @import "bootstrap/bootstrap";
+
+.card {
+  min-height: 425px;
+  margin-bottom: 1.5rem;
+}

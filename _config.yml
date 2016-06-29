@@ -20,3 +20,26 @@ exclude:
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+# collections
+collections:
+  works:
+    output: true
+    permalink: /work/:path/
+  shows:
+    output: true
+    permalink: /show/:path/
+  press:
+    output: false
+
+defaults:
+  -
+    scope:
+      path: _works
+    values:
+      layout: work
+  -
+    scope:
+      path: _shows
+    values:
+      layout: show

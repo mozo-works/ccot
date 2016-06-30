@@ -11,13 +11,13 @@ layout: default
 
 <div class="container">
   <div class="row">
-    {% assign works = site.works | sort:"wid" | reverse  %}
-    {% for work in works %}
-    {% assign featured_image = 'http://placehold.it/400x225' %}
-    {% if work.featured_image %}
-      {% assign featured_image = '/assets/images/work/' | append: work.img | append: '/' | append: work.featured_image %}
-    {% endif %}
-    <div class="col-md-4">
+    <div class="card-columns">
+      {% assign works = site.works | sort:"wid" | reverse  %}
+      {% for work in works %}
+      {% assign featured_image = 'http://placehold.it/400x225' %}
+      {% if work.featured_image %}
+        {% assign featured_image = '/assets/images/work/' | append: work.img | append: '/' | append: work.featured_image %}
+      {% endif %}
       <div class="card">
         <a href="{{ work.id }}"><img class="card-img-top img-fluid" src="{{ featured_image }}" alt="Card image cap"></a>
         <div class="card-block">
@@ -25,8 +25,8 @@ layout: default
           <p class="card-text">{{ work.description }}</p>
         </div>
       </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 
 </div>

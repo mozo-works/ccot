@@ -13,11 +13,15 @@ layout: default
 
 <div class="jumbotron">
   <div class="container">
-    <h1 class="display-4">현재 공연 배너</h1>
-    <p class="lead">시간 장소 소개</p>
+    <h1 class="display-4">{{ site.data.front.show.title }}</h1>
+    <p class="lead">{{ site.data.front.show.when }}</p>
+    <p class="lead">{{ site.data.front.show.where }}</p>
+    <p>{{ site.data.front.show.description }}</p>
+    {% if site.data.front.show.long-image %}
     <p class="lead">
       <a class="btn btn-primary btn-lg" href="#" role="button">자세히 보기</a>
     </p>
+    {% endif %}
   </div>
 </div>
 

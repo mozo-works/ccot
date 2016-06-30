@@ -1,6 +1,15 @@
 ---
 
 # front page
+show:
+  title: 인도 마사지사
+  when: 2016년 7월 15일
+  where: 인도
+  description:
+  bg-image:
+  long-image:
+  ticket:
+
 work:
   title: 마사지사
   description: 신체와 육성, 일상의 공간과 사물, 라이브음악이 시와 만나는 시 퍼포먼스

@@ -3,11 +3,6 @@
 @import "variables";
 @import "bootstrap/bootstrap";
 
-.card {
-  min-height: 425px;
-  margin-bottom: 1.5rem;
-}
-
 .jumbotron.work {
     position: relative;
     background: #000 url("/assets/images/work/self/s35.jpg") center center;
@@ -15,4 +10,11 @@
     height: 100%;
     background-size: cover;
     overflow: hidden;
+}
+
+.card a {
+  text-decoration: none;
+  &:hover {
+    color: $gray-light;
+  }
 }

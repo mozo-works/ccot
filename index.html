@@ -25,38 +25,49 @@ layout: default
   <div class="row">
     <div class="col-md-4">
       <div class="card">
-        <img class="card-img-top img-fluid" src="http://placehold.it/400x225" alt="Card image cap">
+        <a href="/works"><img class="card-img-top img-fluid" src="{{ site.data.front.work.image }}" alt="Card image cap"></a>
         <div class="card-block">
-          <h2 class="card-title">작품</h2>
-          <p class="card-text">&nbsp;</p>
+          <h2 class="card-title">작품 - {{ site.data.front.work.title }}</h2>
+          <p class="card-text">
+            {{ site.data.front.work.description }}
+          </p>
           <a href="/works" class="btn btn-primary">더 알아보기</a>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="card">
-        <img class="card-img-top img-fluid" src="http://placehold.it/400x225" alt="Card image cap">
+        <a href="http://ccotbbat.com/program"><img class="card-img-top img-fluid" src="{{ site.data.front.course.image }}" alt="Card image cap"></a>
         <div class="card-block">
-          <h2 class="card-title">교육</h2>
-          <p class="card-text">&nbsp;</p>
-          <a href="http://ccotbbat.com" class="btn btn-primary">더 알아보기</a>
+          <h2 class="card-title">교육 - 꽃밭</h2>
+          <p class="card-text">{{ site.data.front.course.description }}</p>
+          <a href="http://ccotbbat.com/program" class="btn btn-primary">더 알아보기</a>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="card">
-        <img class="card-img-top img-fluid" src="http://placehold.it/400x225" alt="Card image cap">
+        <a href="/about"><img class="card-img-top img-fluid" src="{{ site.data.front.about.image }}" alt="Card image cap"></a>
         <div class="card-block">
-          <h2 class="card-title">소개</h2>
-          <p class="card-text">&nbsp;</p>
+          <h2 class="card-title">비주얼씨어터컴퍼니 꽃</h2>
+          <p class="card-text">{{ site.data.front.about.description }}</p>
           <a href="/about" class="btn btn-primary">더 알아보기</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="fb-page" data-href="https://www.facebook.com/visualtheaterccot/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/visualtheaterccot/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/visualtheaterccot/">비주얼씨어터 꽃</a></blockquote></div>
+
+  <div class="card-columns m-t-2">
+  {% for feed in site.data.page-feeds.data %}
+    <div class="card">
+      {% if feed.full_picture %}
+      <a href="{{ feed.permalink_url }}" target="_blank"><img class="card-img-top img-fluid" src="{{ feed.full_picture }}" alt="Card image cap"></a>
+      {% endif %}
+      <div class="card-block">
+        <p class="card-text"><a href="{{ feed.permalink_url }}" class="text-muted" target="_blank">{{ feed.message }}</a></p>
+      </div>
     </div>
+  {% endfor %}
   </div>
+
 </div>

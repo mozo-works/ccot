@@ -11,6 +11,7 @@ r_time: 15
 objet:  시, 공간, 오브제, 페인팅, 영상, 라이브연주
 img:  wolf
 video:  R05ZFu6cld0
+featured_image: w2.jpg
 ---
 
 ![tt](http://visualtheater.kr/img/work/wolf/wolf-header.jpg)

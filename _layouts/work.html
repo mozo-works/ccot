@@ -2,12 +2,42 @@
 layout: default
 ---
 
-<div class="jumbotron">
+<div class="jumbotron work" style="background-image: url('/assets/images/work/{{ page.img }}/{{ page.featured_image }}');">
   <div class="container">
-    <h1 class="display-4">{{ page.title }}</h1>
+    <h1 class="display-4"><span class="bg-info text-primary">{{ page.title }}</span></h1>
   </div>
 </div>
 
 <div class="container">
-  {{ content }}
+  <div class="col-lg-8 about-content">
+    {{ content }}
+
+    <h2 class="m-t-2">영상</h2>
+    {% if page.video %}
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ page.video }}" allowfullscreen></iframe>
+      </div>
+    {% endif %}
+
+    <h2 class="m-t-2">사진</h2>
+    {% for file in site.static_files %}
+      {% assign work_image_directory = '/assets/images/work/' | append: page.img %}
+      {% if file.path contains work_image_directory %}
+      <p class="m-y-2"><img src="{{ file.path }}" alt="" class="img-fluid center-block" /></p>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="col-lg-3 col-lg-offset-1 about-sidebar">
+    <div class="sidebar-module">
+      <ol id="work-meta" class="list-unstyled">
+        {% if page.c_year %}<li>창작연도: {{ page.c_year }}</li>{% endif %}
+        {% if page.type %}<li>형식구분: {{ page.type }}</li>{% endif %}
+        {% if page.creator %}<li>창작자: {{ page.creator }}</li>{% endif %}
+        {% if page.performer %}<li>공연자: {{ page.performer }}</li>{% endif %}
+        {% if page.r_time %}<li>소요시간 : {{ page.r_time }}</li>{% endif %}
+        {% if page.objet %}<li>주재료 : {{ page.objet }}</li>{% endif %}
+        {% if page.doc %}<li><a href="{{ page.doc }}" class="btn btn-info"><i class="fa fa-download" aria-hidden="true"></i> 공연소개서</a></li>{% endif %}
+      </ol>
+    </div>
+  </div>
 </div>

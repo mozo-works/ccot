@@ -1,16 +1,17 @@
 ---
 wid: 8
-title:  페인팅퍼포먼스 'In the Paint, Dance!'
+title: 페인팅퍼포먼스 'In the Paint, Dance!'
 description: 흰 빈 벽 위에 그려지는 헛된 욕망의 꿈! 흰 벽 위에 두 개의 몸이 그려내는 환상 코믹 페인팅 퍼포먼스!
-e_title:  Painting performance ‘In the Paint, Dance!’
+e_title: Painting performance ‘In the Paint, Dance!’
 c_year: 2003
 type: 페인팅 퍼포먼스
-creator:  이철성
-performer:  이철성, 이승준
+creator: 이철성
+performer: 이철성, 이승준
 r_time: 15
-objet:  페인팅, 몸
-img:  dance
-video:  u76Z_82yBNI
+objet: 페인팅, 몸
+img: dance
+video: u76Z_82yBNI
+featured_image: d32.jpg
 ---
 
 ### 2003년, 이스라엘 예루살렘의 한 갤러리에서 

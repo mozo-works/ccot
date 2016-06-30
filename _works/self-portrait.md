@@ -11,6 +11,8 @@ r_time: 40
 objet:  페인팅, 영상
 img:  self
 video:  IRCTZqSoxhk
+doc: /assets/files/selfportrait.doc
+featured_image: s34.jpg
 ---
 
 ## 회화, 영상, 설치, 라이브 음악,    

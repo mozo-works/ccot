@@ -10,7 +10,7 @@ performer:  이철성, 유영봉, 오준영, 민경현, 신수
 r_time: 60
 objet:  빛, 소리, 보이스 등
 img:  tea
-video:  0
+featured_image: t32.JPG
 ---
 
 ### 시(詩) 퍼포먼스 (Visual Poems) = 시(문학) + 시각예술 + 공연예술

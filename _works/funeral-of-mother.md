@@ -11,6 +11,7 @@ r_time: 45
 objet:  비디오 영상, 몸
 img:  funeral
 video:  Wmz73zghsvk
+featured_image: f31.jpg
 ---
 
 ### 슬픔과 아이러니의 만남!

@@ -26,9 +26,9 @@ collections:
   works:
     output: true
     permalink: /work/:path/
-  shows:
+  texts:
     output: true
-    permalink: /show/:path/
+    permalink: /text/:path/
   press:
     output: false
 
@@ -40,6 +40,6 @@ defaults:
       layout: work
   -
     scope:
-      path: _shows
+      path: _texts
     values:
-      layout: show
+      layout: text

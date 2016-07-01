@@ -1,6 +1,6 @@
 <nav class="navbar navbar-light bg-faded">
   <div class="container">
-    <a class="navbar-brand" href="/">svg 로고 | {{ site.name }}</a>
+    <a class="navbar-brand" href="/">{{ site.name }}</a><a href="/en/"><small class="label label-default">English</small></a>
     <ul class="nav navbar-nav pull-xs-right">
       {% for item in site.data.menu %}
       <li class="nav-item{% if page.url == item.url %} active{% endif %}">

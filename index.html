@@ -11,57 +11,60 @@ layout: default
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="jumbotron">
+<section id="front-banner" class="jumbotron" style="background-image: url('/assets/images/flower/indian-massager.jpg');">
   <div class="container">
-    <h1 class="display-4">{{ site.data.front.show.title }}</h1>
-    <p class="lead">{{ site.data.front.show.when }}</p>
-    <p class="lead">{{ site.data.front.show.where }}</p>
+    <h1 class="display-4"><span class="bg-info">{{ site.data.front.show.title }}</span></h1>
+    <ul class="list-unstyled">
+      <li><span class="bg-info lead">{{ site.data.front.show.when }}</span></li>
+      <li><span class="bg-info lead">{{ site.data.front.show.where }}</span></li>
+    </p>
     <p>{{ site.data.front.show.description }}</p>
     {% if site.data.front.show.long-image %}
     <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">자세히 보기</a>
+      <a class="btn btn-primary btn-lg" href="/about/" role="button">자세히 보기</a>
     </p>
     {% endif %}
   </div>
-</div>
+</section>
 
 <div class="container">
   <div class="row">
     <div class="col-md-4">
       <div class="card">
-        <a href="/works"><img class="card-img-top img-fluid" src="{{ site.data.front.work.image }}" alt="Card image cap"></a>
         <div class="card-block">
-          <h2 class="card-title">작품 - {{ site.data.front.work.title }}</h2>
+          <h2 class="card-title">작품</h2>
           <p class="card-text">
+            {{ site.data.front.work.title }}<br>
             {{ site.data.front.work.description }}
           </p>
           <a href="/works" class="btn btn-primary">더 알아보기</a>
         </div>
+        <a href="/works"><img class="card-img-top img-fluid" src="{{ site.data.front.work.image }}" alt="Card image cap"></a>
       </div>
     </div>
     <div class="col-md-4">
       <div class="card">
-        <a href="http://ccotbbat.com/program"><img class="card-img-top img-fluid" src="{{ site.data.front.course.image }}" alt="Card image cap"></a>
-        <div class="card-block">
-          <h2 class="card-title">교육 - 꽃밭</h2>
-          <p class="card-text">{{ site.data.front.course.description }}</p>
-          <a href="http://ccotbbat.com/program" class="btn btn-primary">더 알아보기</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <a href="/about"><img class="card-img-top img-fluid" src="{{ site.data.front.about.image }}" alt="Card image cap"></a>
         <div class="card-block">
           <h2 class="card-title">비주얼씨어터컴퍼니 꽃</h2>
           <p class="card-text">{{ site.data.front.about.description }}</p>
           <a href="/about" class="btn btn-primary">더 알아보기</a>
         </div>
+        <a href="/about"><img class="card-img-top img-fluid" src="{{ site.data.front.about.image }}" alt="Card image cap"></a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-block">
+          <h2 class="card-title">체험예술공간 꽃밭!</h2>
+          <p class="card-text">{{ site.data.front.course.description }}</p>
+          <a href="http://ccotbbat.com/program" class="btn btn-primary">더 알아보기</a>
+        </div>
+        <a href="http://ccotbbat.com/program"><img class="card-img-top img-fluid" src="{{ site.data.front.course.image }}" alt="Card image cap"></a>
       </div>
     </div>
   </div>
 
-  <div class="card-columns m-t-2">
+<!--   <div class="card-columns m-t-2">
   {% for feed in site.data.page-feeds.data %}
     <div class="card">
       {% if feed.full_picture %}
@@ -72,6 +75,6 @@ layout: default
       </div>
     </div>
   {% endfor %}
-  </div>
+  </div> -->
 
 </div>

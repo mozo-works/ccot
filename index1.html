@@ -13,15 +13,15 @@ layout: default
 
 <section id="front-banner" class="jumbotron" style="background-image: url('/assets/images/flower/indian-massager.jpg');">
   <div class="container">
-    <h1 class="display-4"><span class="bg-info">{{ site.data.front.show.title }}</span></h1>
+    <h1 class="display-4"><span class="bg-warning">{{ site.data.front.show.title }}</span></h1>
     <ul class="list-unstyled">
-      <li><span class="bg-info lead">{{ site.data.front.show.when }}</span></li>
-      <li><span class="bg-info lead">{{ site.data.front.show.where }}</span></li>
+      <li><span class="bg-warning lead">{{ site.data.front.show.when }}</span></li>
+      <li><span class="bg-warning lead">{{ site.data.front.show.where }}</span></li>
     </p>
     <p>{{ site.data.front.show.description }}</p>
     {% if site.data.front.show.long-image %}
     <p class="lead">
-      <a class="btn btn-primary btn-lg" href="/about/" role="button">자세히 보기</a>
+      <a class="btn btn-success btn-lg" href="/about/" role="button">자세히 보기</a>
     </p>
     {% endif %}
   </div>
@@ -32,7 +32,7 @@ layout: default
     <div class="col-md-6">
       <h2 class="display-5">비주얼씨어터컴퍼니 꽃</h2>
       <p class="lead">{{ site.data.front.about.description }}</p>
-      <a class="btn btn-primary btn-lg" href="/about/" role="button">자세히 보기</a>
+      <a class="btn btn-success btn-lg" href="/about/" role="button">자세히 보기</a>
     </p>
     </div>
     <div class="col-md-6">
@@ -62,7 +62,7 @@ layout: default
           <div class="card-block">
             <h4 class="card-title"><a href="{{ work.id }}">{{ work.title }}</a></h4>
             <p class="card-text text-muted">{{ work.description }}</p>
-            <a href="{{ work.id }}" class="btn btn-primary">더 알아보기</a>
+            <a href="{{ work.id }}" class="btn btn-success">더 알아보기</a>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@ layout: default
         그 꽃밭에서 뛰노는 사람들이<br>
         함께 만들어가는 체험예술공동체!
       </p>
-      <a class="btn btn-primary btn-lg" href="http://ccotbbat.com/about">자세히 보기</a>
+      <a class="btn btn-success btn-lg" href="http://ccotbbat.com/about">자세히 보기</a>
       </ul>
     </div>
     <div class="col-sm-6">

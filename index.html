@@ -13,15 +13,15 @@ layout: default
 
 <section id="front-banner" class="jumbotron" style="background-image: url('/assets/images/flower/indian-massager.jpg');">
   <div class="container">
-    <h1 class="display-4"><span class="bg-info">{{ site.data.front.show.title }}</span></h1>
+    <h1 class="display-4"><span class="bg-warning">{{ site.data.front.show.title }}</span></h1>
     <ul class="list-unstyled">
-      <li><span class="bg-info lead">{{ site.data.front.show.when }}</span></li>
-      <li><span class="bg-info lead">{{ site.data.front.show.where }}</span></li>
+      <li><span class="bg-warning lead">{{ site.data.front.show.when }}</span></li>
+      <li><span class="bg-warning lead">{{ site.data.front.show.where }}</span></li>
     </p>
     <p>{{ site.data.front.show.description }}</p>
     {% if site.data.front.show.long-image %}
     <p class="lead">
-      <a class="btn btn-primary btn-lg" href="/about/" role="button">자세히 보기</a>
+      <a class="btn btn-success btn-lg" href="/about/" role="button">자세히 보기</a>
     </p>
     {% endif %}
   </div>
@@ -39,7 +39,7 @@ layout: default
             {{ site.data.front.work.title }}<br>
             {{ site.data.front.work.description }}
           </p>
-          <a href="/works" class="btn btn-primary">더 알아보기</a>
+          <a href="/works" class="btn btn-success">더 알아보기</a>
         </div>
         <a href="/works"><img class="card-img-top img-fluid" src="{{ site.data.front.work.image }}" alt="Card image cap"></a>
       </div>
@@ -49,7 +49,7 @@ layout: default
         <div class="card-block">
           <h2 class="card-title">비주얼씨어터컴퍼니 꽃</h2>
           <p class="card-text">{{ site.data.front.about.description }}</p>
-          <a href="/about" class="btn btn-primary">더 알아보기</a>
+          <a href="/about" class="btn btn-success">더 알아보기</a>
         </div>
         <a href="/about"><img class="card-img-top img-fluid" src="{{ site.data.front.about.image }}" alt="Card image cap"></a>
       </div>
@@ -59,7 +59,7 @@ layout: default
         <div class="card-block">
           <h2 class="card-title">체험예술공간 꽃밭!</h2>
           <p class="card-text">{{ site.data.front.course.description }}</p>
-          <a href="http://ccotbbat.com/program" class="btn btn-primary">더 알아보기</a>
+          <a href="http://ccotbbat.com/program" class="btn btn-success">더 알아보기</a>
         </div>
         <a href="http://ccotbbat.com/program"><img class="card-img-top img-fluid" src="{{ site.data.front.course.image }}" alt="Card image cap"></a>
       </div>

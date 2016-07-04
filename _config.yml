@@ -18,7 +18,7 @@ exclude:
   - LICENSE
 
 sass:
-    style: :compressed
+  style: :compressed
 
 kramdown:
   input: GFM
@@ -29,6 +29,9 @@ collections:
   works:
     output: true
     permalink: /work/:path/
+  en_works:
+    output: true
+    permalink: /en/work/:path/
   texts:
     output: true
     permalink: /text/:path/
@@ -41,6 +44,11 @@ defaults:
       path: _works
     values:
       layout: work
+  -
+    scope:
+      path: _en_works
+    values:
+      layout: en_work
   -
     scope:
       path: _texts

@@ -12,13 +12,11 @@ layout: default
   <div class="col-lg-8 about-content">
     {{ content }}
 
-    {% if page.video.size > 0 %}
     <h2 class="m-t-2">영상</h2>
-    {% for item in page.video %}
-    <div class="embed-responsive embed-responsive-16by9 m-t-2">
-      <iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ item }}" allowfullscreen></iframe>
-    </div>
-    {% endfor %}
+    {% if page.video %}
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ page.video }}" allowfullscreen></iframe>
+      </div>
     {% endif %}
 
     <h2 class="m-t-2">사진</h2>

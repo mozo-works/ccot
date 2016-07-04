@@ -1,3 +1,7 @@
+---
+layout: en/about
+---
+
 ++ Visual Theater Company, 'CCOT'
  _
 

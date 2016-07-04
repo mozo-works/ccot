@@ -1,3 +1,7 @@
+---
+layout: en/about
+---
+
 ++ 2010
 
 <The Self-portrait> Hi Seoul Fesitval (Official Invitation) - Korea

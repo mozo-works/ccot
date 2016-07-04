@@ -13,9 +13,9 @@ r_time: 90
 objet: 
 img: paper
 video:
-  https://youtu.be/R32bNfgNsy4 
-  https://www.youtube.com/watch?v=wvtGGOfbLf4
-featured_image: 
+  - R32bNfgNsy4
+  - wvtGGOfbLf4
+featured_image: 12.jpg
 ---
  
 About the Work

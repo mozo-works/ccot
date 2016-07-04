@@ -4,6 +4,11 @@ description: ‘비주얼씨어터 꽃’은 시각예술과 공연예술이 통
 url: http://visualtheater.kr
 baseurl: ''
 
+en:
+  name: Visual theater company, CCOT
+  description: description goes here.
+  url: http://visualtheater.kr/en/
+
 timezone: 'Asia/Seoul'
 permalink: pretty
 
@@ -48,7 +53,7 @@ defaults:
     scope:
       path: _en_works
     values:
-      layout: en_work
+      layout: en/work
   -
     scope:
       path: _texts

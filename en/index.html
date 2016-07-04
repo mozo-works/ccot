@@ -1,0 +1,70 @@
+---
+layout: en/default
+---
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=618140558345676";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<section id="front-banner" class="jumbotron" style="background-image: url('/assets/images/banners/{{ site.data.front.banner.bg-image }}');">
+  <div class="container">
+    <h1 class="display-4"><span class="bg-warning">{{ site.data.front.banner.title }}</span></h1>
+    <ul class="list-unstyled">
+      <li><span class="bg-warning lead">{{ site.data.front.banner.when }}</span></li>
+      <li><span class="bg-warning lead">{{ site.data.front.banner.where }}</span></li>
+    </p>
+    <p>{{ site.data.front.banner.description }}</p>
+    {% if site.data.front.banner.long-image %}
+    <p class="lead">
+      <a class="btn btn-success btn-lg" href="/about/" role="button">more</a>
+    </p>
+    {% endif %}
+  </div>
+</section>
+
+<section id="front-about" class="jumbotron bg-default">
+  <div class="container">
+    <div class="col-md-6">
+      <h2 class="display-5">{{ site.en.name }}</h2>
+      <p class="lead">Visual experiments</p>
+      <p><a class="btn btn-success" href="/en/about/" role="button">more</a></p>
+      <div class="fb-like" data-href="http://visualtheater.kr" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+    </p>
+    </div>
+    <div class="col-md-6">
+      <p class="lead">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur et laborum ipsam, adipisci dolores cumque aspernatur, dolorum temporibus! Magni harum enim aspernatur repellat, obcaecati minus molestiae, dicta dolorum rem ducimus.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="front-works" class="jumbotron bg-warning">
+  <div class="container">
+    <h2 class="text-xs-center m-b-2">Works</h2>
+    <div class="row">
+      {% assign works = site.en_works | sort:"wid" | reverse %}
+      {% for work in works limit:3 %}
+      {% assign featured_image = 'http://placehold.it/400x225' %}
+      {% if work.featured_image %}
+        {% assign featured_image = '/assets/images/work/' | append: work.img | append: '/' | append: work.featured_image %}
+      {% endif %}
+      <div class="col-md-4">
+        <div class="card">
+          <a href="{{ work.id }}"><img class="card-img-top img-fluid" src="{{ featured_image }}" alt="Card image cap"></a>
+          <div class="card-block">
+            <h4 class="card-title"><a href="{{ work.id }}">{{ work.title }}</a></h4>
+            <p class="card-text text-muted">{{ work.description }}</p>
+            <a href="{{ work.id }}" class="btn btn-success">more</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

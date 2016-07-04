@@ -1,3 +1,7 @@
+---
+layout: en/about
+---
+
 [http://www.visualtheater.net/img/flower/chol.jpg Director Lee Cheol-Sung ]
 ++++ Lee Cheol-Sung (Director), Creator, performer
 

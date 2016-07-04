@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.en.name }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <!-- CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-dark navbar-inverse bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="/">{{ site.en.name }}</a><a href="/en/"></a>
+        <ul class="nav navbar-nav pull-xs-right">
+          <li class="nav-item{% if page.url == '/en/about/' %} active{% endif %}">
+            <a class="nav-link" href="/en/about/">About{% if page.url == '/en/about/' %} <span class="sr-only">(current)</span>{% endif %}</a>
+          </li>
+          <li class="nav-item{% if page.url == '/en/works/' %} active{% endif %}">
+            <a class="nav-link" href="/en/works/">Works{% if page.url == '/en/works/' %} <span class="sr-only">(current)</span>{% endif %}</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    {{ content }}
+
+    <p>&nbsp;</p>
+
+    <footer class="footer bg-primary">
+      <div class="container">
+        <span>Copyright 2016 © Visual theater Company, CCOT. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.3.2/js/tether.min.js"></script>
+    <script src="//cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  </body>
+</html>

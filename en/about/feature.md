@@ -1,3 +1,7 @@
+---
+layout: en/about
+---
+
 +++ Visual theater!
 
 +++ Material Theater!

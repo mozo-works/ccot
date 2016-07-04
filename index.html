@@ -7,7 +7,7 @@ layout: default
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.6&appId=1405054873155794";
+  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.6&appId=618140558345676";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
@@ -27,56 +27,69 @@ layout: default
   </div>
 </section>
 
-<p>&nbsp;</p>
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-block">
-          <h2 class="card-title">작품</h2>
-          <p class="card-text">
-            {{ site.data.front.work.title }}<br>
-            {{ site.data.front.work.description }}
-          </p>
-          <a href="/works" class="btn btn-success">더 알아보기</a>
-        </div>
-        <a href="/works"><img class="card-img-top img-fluid" src="{{ site.data.front.work.image }}" alt="Card image cap"></a>
-      </div>
+<section id="front-about" class="jumbotron bg-default">
+  <div class="container">
+    <div class="col-md-6">
+      <h2 class="display-5">비주얼씨어터컴퍼니 꽃</h2>
+      <p class="lead">{{ site.data.front.about.description }}</p>
+      <p><a class="btn btn-success" href="/about/" role="button">자세히 보기</a></p>
+      <div class="fb-like" data-href="http://visualtheater.kr" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+    </p>
     </div>
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-block">
-          <h2 class="card-title">비주얼씨어터컴퍼니 꽃</h2>
-          <p class="card-text">{{ site.data.front.about.description }}</p>
-          <a href="/about" class="btn btn-success">더 알아보기</a>
-        </div>
-        <a href="/about"><img class="card-img-top img-fluid" src="{{ site.data.front.about.image }}" alt="Card image cap"></a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-block">
-          <h2 class="card-title">체험예술공간 꽃밭!</h2>
-          <p class="card-text">{{ site.data.front.course.description }}</p>
-          <a href="http://ccotbbat.com/program" class="btn btn-success">더 알아보기</a>
-        </div>
-        <a href="http://ccotbbat.com/program"><img class="card-img-top img-fluid" src="{{ site.data.front.course.image }}" alt="Card image cap"></a>
-      </div>
+    <div class="col-md-6">
+      <p class="lead">
+        극단 꽃은 2000년 이스라엘에서 창단되어 2004년부터 국내에서 활동해온 Visual theater company입니다.
+      </p>
+      <p class="lead">
+        시각예술과 공연예술을 혼합한 새로운 형식과 내밀한 예술적 세련미! 공연사업과 교육프로그램을 운영합니다.
+      </p>
     </div>
   </div>
+</section>
 
-<!--   <div class="card-columns m-t-2">
-  {% for feed in site.data.page-feeds.data %}
-    <div class="card">
-      {% if feed.full_picture %}
-      <a href="{{ feed.permalink_url }}" target="_blank"><img class="card-img-top img-fluid" src="{{ feed.full_picture }}" alt="Card image cap"></a>
+<section id="front-works" class="jumbotron bg-warning">
+  <div class="container">
+    <h2 class="text-xs-center m-b-2">작품</h2>
+    <div class="row">
+      {% assign works = site.works | sort:"wid" | reverse %}
+      {% for work in works limit:3 %}
+      {% assign featured_image = 'http://placehold.it/400x225' %}
+      {% if work.featured_image %}
+        {% assign featured_image = '/assets/images/work/' | append: work.img | append: '/' | append: work.featured_image %}
       {% endif %}
-      <div class="card-block">
-        <p class="card-text"><a href="{{ feed.permalink_url }}" class="text-muted" target="_blank">{{ feed.message }}</a></p>
+      <div class="col-md-4">
+        <div class="card">
+          <a href="{{ work.id }}"><img class="card-img-top img-fluid" src="{{ featured_image }}" alt="Card image cap"></a>
+          <div class="card-block">
+            <h4 class="card-title"><a href="{{ work.id }}">{{ work.title }}</a></h4>
+            <p class="card-text text-muted">{{ work.description }}</p>
+            <a href="{{ work.id }}" class="btn btn-success">더 알아보기</a>
+          </div>
+        </div>
       </div>
+      {% endfor %}
     </div>
-  {% endfor %}
-  </div> -->
+  </div>
+</section>
 
-</div>
+<section id="front-ccotbbat" class="jumbotron bg-success">
+  <div class="container">
+    <div class="col-sm-6">
+      <h2 class="display-6">체험예술공간 꽃밭!</h2>
+      <h2 class="display-7">체험 자체가 예술!</h2>
+      <p class="lead">
+        꽃을 심고 꽃밭을 가꾸는 사람들과<br>
+        그 꽃밭에서 뛰노는 사람들이<br>
+        함께 만들어가는 체험예술공동체!
+      </p>
+      <p><a class="btn btn-warning" href="http://ccotbbat.com/">자세히 보기</a></p>
+      </ul>
+    </div>
+    <div class="col-sm-6">
+      <p class="lead">
+        <체험예술공간 꽃밭>은 아동, 청소년과 가족을 대상으로 미술·연극 통합형 공연과 전시 교육프로그램을 진행하는 전문예술집단입니다. 미술적 재료(미디어아트, 회화, 조각 등)가 공연적 재료(몸, 오브제, 라이브음악 등)와 만나 공연이 펼쳐지고, 체험전시 놀이터가 펼쳐지고, 살아 뛰노는 교육(공연형 교육, 전시형 교육)이 이루어집니다.
+      </p>
+    </div>
+  </div>
+</section>
+

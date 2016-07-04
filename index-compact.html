@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.6&appId=1405054873155794";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<section id="front-banner" class="jumbotron" style="background-image: url('/assets/images/flower/indian-massager.jpg');">
+  <div class="container">
+    <h1 class="display-4"><span class="bg-warning">{{ site.data.front.show.title }}</span></h1>
+    <ul class="list-unstyled">
+      <li><span class="bg-warning lead">{{ site.data.front.show.when }}</span></li>
+      <li><span class="bg-warning lead">{{ site.data.front.show.where }}</span></li>
+    </p>
+    <p>{{ site.data.front.show.description }}</p>
+    {% if site.data.front.show.long-image %}
+    <p class="lead">
+      <a class="btn btn-success btn-lg" href="/about/" role="button">자세히 보기</a>
+    </p>
+    {% endif %}
+  </div>
+</section>
+
+<p>&nbsp;</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-block">
+          <h2 class="card-title">작품</h2>
+          <p class="card-text">
+            {{ site.data.front.work.title }}<br>
+            {{ site.data.front.work.description }}
+          </p>
+          <a href="/works" class="btn btn-success">더 알아보기</a>
+        </div>
+        <a href="/works"><img class="card-img-top img-fluid" src="{{ site.data.front.work.image }}" alt="Card image cap"></a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-block">
+          <h2 class="card-title">비주얼씨어터컴퍼니 꽃</h2>
+          <p class="card-text">{{ site.data.front.about.description }}</p>
+          <a href="/about" class="btn btn-success">더 알아보기</a>
+        </div>
+        <a href="/about"><img class="card-img-top img-fluid" src="{{ site.data.front.about.image }}" alt="Card image cap"></a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-block">
+          <h2 class="card-title">체험예술공간 꽃밭!</h2>
+          <p class="card-text">{{ site.data.front.course.description }}</p>
+          <a href="http://ccotbbat.com/program" class="btn btn-success">더 알아보기</a>
+        </div>
+        <a href="http://ccotbbat.com/program"><img class="card-img-top img-fluid" src="{{ site.data.front.course.image }}" alt="Card image cap"></a>
+      </div>
+    </div>
+  </div>
+
+<!--   <div class="card-columns m-t-2">
+  {% for feed in site.data.page-feeds.data %}
+    <div class="card">
+      {% if feed.full_picture %}
+      <a href="{{ feed.permalink_url }}" target="_blank"><img class="card-img-top img-fluid" src="{{ feed.full_picture }}" alt="Card image cap"></a>
+      {% endif %}
+      <div class="card-block">
+        <p class="card-text"><a href="{{ feed.permalink_url }}" class="text-muted" target="_blank">{{ feed.message }}</a></p>
+      </div>
+    </div>
+  {% endfor %}
+  </div> -->
+
+</div>

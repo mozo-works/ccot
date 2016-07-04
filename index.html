@@ -11,15 +11,15 @@ layout: default
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<section id="front-banner" class="jumbotron" style="background-image: url('/assets/images/flower/indian-massager.jpg');">
+<section id="front-banner" class="jumbotron" style="background-image: url('/assets/images/banners/{{ site.data.front.banner.bg-image }}');">
   <div class="container">
-    <h1 class="display-4"><span class="bg-warning">{{ site.data.front.show.title }}</span></h1>
+    <h1 class="display-4"><span class="bg-warning">{{ site.data.front.banner.title }}</span></h1>
     <ul class="list-unstyled">
-      <li><span class="bg-warning lead">{{ site.data.front.show.when }}</span></li>
-      <li><span class="bg-warning lead">{{ site.data.front.show.where }}</span></li>
+      <li><span class="bg-warning lead">{{ site.data.front.banner.when }}</span></li>
+      <li><span class="bg-warning lead">{{ site.data.front.banner.where }}</span></li>
     </p>
-    <p>{{ site.data.front.show.description }}</p>
-    {% if site.data.front.show.long-image %}
+    <p>{{ site.data.front.banner.description }}</p>
+    {% if site.data.front.banner.long-image %}
     <p class="lead">
       <a class="btn btn-success btn-lg" href="/about/" role="button">자세히 보기</a>
     </p>

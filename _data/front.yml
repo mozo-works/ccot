@@ -1,12 +1,12 @@
 ---
 
 # front page
-show:
+banner:
   title: 인도 마사지사
   when: 2016년 7월 15일
   where: 인도
   description:
-  bg-image:
+  bg-image: 20160606/indian-massager.jpg
   long-image:
   ticket:
 

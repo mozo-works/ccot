@@ -49,7 +49,7 @@ layout: default
 
 <section id="front-works" class="jumbotron bg-warning">
   <div class="container">
-    <h2 class="text-xs-center m-b-2"><a href="/works/">작품</a></h2>
+    <h2 class="text-xs-center m-b-2"><a href="/works/" class="bg-warning">작품</a></h2>
     <div class="row">
       {% assign works = site.works | sort:"wid" | reverse %}
       {% for work in works limit:3 %}

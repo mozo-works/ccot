@@ -1,52 +1,25 @@
 ---
 wid: 11
-title: 시(詩) 퍼포먼스 늑대의 옷
-description: 신체와 육성, 일상의 공간과 사물, 라이브음악이 시와 만나는 시 퍼포먼스
-e_title: The clothes of wolf
+title: The clothes of wolf
+description: “The power of the Poetry Performance filling the daily street, the outdoor market place and the under the bridge etc. with an artistic whiff of perfume!”
 c_year: 2006
-type: 시(詩) 퍼포먼스
-creator: 이철성
-performer: 이철성, 이정훈, 김미나
+type: Poetry Performance
+creator: Lee Cheol-Sung
+performer: Lee Cheol-Sung, Lee Jung-Hoon, Kim Mi-Na
 r_time: 15
-objet:  시, 공간, 오브제, 페인팅, 영상, 라이브연주
-img:  wolf
-video:  R05ZFu6cld0
+objet: poetry, space, objet, painting, image, music
+img: wolf
+video: R05ZFu6cld0
 featured_image: w2.jpg
 ---
 
-![tt](http://visualtheater.kr/img/work/wolf/wolf-header.jpg)
+> “The power of the Poetry Performance filling the daily street, the outdoor market place and the under the bridge etc. with an artistic whiff of ferfume!”
 
-- 2010 [시 퍼포먼스 ‘늑대의 옷’]  _ 속초문화원 초청공연
-- 2009 [시 퍼포먼스 ‘늑대의 옷’] _ 안양 석수시장 / 과천 별양동 쉼터 공연 경기문화재단 무대공연제작지원사업- 다원예술분야 선정
-- 2009 [시 퍼포먼스 ‘늑대의 옷’] _ 2009 한국실험예술제, 노원국제퍼포먼스 페스티벌 공식초청공연
-- 2008 [시 퍼포먼스 ‘늑대의 옷’] _ 김수영 시인 40주기 추모 기념식 및 공연 / 민음사 주최
-- 2008 [시 퍼포먼스 ‘차향기’] _ 문지문화원 사이 / 파라다이스 문화재단 후원
-- 2007 [시 퍼포먼스 ‘차향기’] _ 과천 관문로 거리숲 굴다리, 경기문화재단 무대공연제작지원사업 다원예술분야 선정
-- 2007 [시 퍼포먼스 ‘차향기’] _ 문지문화원 사이 개원기념 전시공연
-- 2007 [시 퍼포먼스 ‘차향기’] _ 아트센터 나비 
-- 2006 [시 퍼포먼스 ‘소리 소문 없이 그것은 왔다’] _ 문화예술위원회 문학나눔콘서트
-- 2006 [시 퍼포먼스 ‘나는 하늘이다’] _ 안양 석수시장 프로젝트 Open the Door, 스톤앤워터"
-- tory:  "‘굴다리, 재래시장, 일상의 거리를 예술의 향기로 가득채운 시 퍼포먼스의 힘!’
+> “The Visual Poems tasted by the senses of our eyes and total bodies!”
 
-‘눈으로 즐기고 온 몸으로 맛보는 다섯 편의 詩(visual poem)!’
-‘새로운 공연미학의 제시! - 시+시각예술(설치, 페인팅)+공연예술(몸, 오브제, 라이브음악)’ 
+> “The presentation of the new aesthetics of performing arts! – Poems + Objects & Installation + Body & Movement + Strong voice + Live music”
 
-![tt](http://visualtheater.kr/img/work/wolf/wolf-body.jpg)
+![
+tt](http://visualtheater.kr/img/work/wolf/wolf-body.jpg)
 
-어떻게 하면 모두가 함께 시의 깊은 울림과 풍요로운 감각을 새로운 방식으로, 온 몸으로 맛볼 수 있을까. 시 퍼포먼스 '늑대의 옷’은 낭송되는 시의 차원을 너머서 모두가 뜨겁게 온 몸으로 체험하는 시이다. 이를 위해 예술재료로서의 신체와 육성, 일상의 공간과 사물, 라이브음악이 시와 만나 시 퍼포먼스를 만들어냈다. 시인이며 창작자인 이철성의 시집 ‘비파 소년이 사라진 거리’(문학과지성사)의 시들이 퍼포먼스를 통해 일상의 공간을 예술적 공간으로 탈바꿈시킨다.
-
-- 약 5개의 Visual Poem의 작품집 형태.
-- Visual Poem No.1 '늑대의 옷’  
-- Visual Poem No.2 ‘가난한 손’ 
-- Visual Poem No.3 ‘소리 소문 없이 그것은 왔다’ 
-- Visual Poem No.4 ‘차향기’ 
-- Visual Poem No.5 ‘The Water of Time'
-
-작품특징
-
-- 눈과 온몸으로 맛보는 시, Visual Poems!
-- 공간이 살아난다 - 환경을 이용한 연극!
-- 시인이 직접 연출하고 출연하는 공연!
-- 관객이 참여하여 만드는 공연!
-- 제3세계 악기들의 향연!
-- 새로운 공연미학의 제시!"
+Poetry Performance <The Clothes of Wolf> consists of 2-5 visual poems, which is not a public reading. Visual poems are a kind of interdisciplinary performance by combination and artistic communication of literary works, live mucic, fine arts, performing arts etc. This performance is based on the poems of Lee Cheol-Sung, the creator and director.

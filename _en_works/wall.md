@@ -13,17 +13,22 @@ assistant_director: Han Yoonmi
 r_time: 30
 objet: 
 img: wall
-video: http://youtu.be/rI76bNKKi2E
+video: rI76bNKKi2E
 featured_image: w3.jpg
 ---
 
-2016 officially invited at 'Goyang Lake Arts Festival', Goyang
-2015 officially invited at 'Hi Seoul Festival', Seoul
-2015 officially invited at 'Ansan International Street Theater Festival', Ansan
-2015 Co-produced with 'Seoul Street Arts Creation Center', Seoul 
-2013 Selected performance at the Open Studio for 'the Guei Intake Station', Seoul
+- 2016 officially invited at 'Goyang Lake Arts Festival', Goyang
+- 2015 officially invited at 'Hi Seoul Festival', Seoul
+- 2015 officially invited at 'Ansan International Street Theater Festival', Ansan
+- 2015 Co-produced with 'Seoul Street Arts Creation Center', Seoul 
+- 2013 Selected performance at the Open Studio for 'the Guei Intake Station', Seoul
+{: .list-unstyled}
 
-A Painting Performance of the Fantasy and Disillusionment of a Drunken Man!
+&nbsp;
+
+### A Painting Performance of the Fantasy and Disillusionment of a Drunken Man!
+
+&nbsp;
 
 This performance is about the vision a drunk sees in a short moment
 when he vomits and urinates on a wall. His vomit splashed on the wall

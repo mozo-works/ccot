@@ -1,9 +1,9 @@
 ---
 wid: 15
 title: MASSAGER
-description: 신체와 육성, 일상의 공간과 사물, 라이브음악이 시와 만나는 시 퍼포먼스
+description: A Heartwarming Hour for You, Who is Fragile As Paper!
 c_year: 2016
-type: 관객과 함께 만드는 힐링 설치 퍼포먼스
+type: Healing installation performance
 creator: Lee Cheolsung
 performer: Lee Cheolsung, Citizens
 music: Lee Jeonghoon 
@@ -17,14 +17,14 @@ video:
 featured_image: IMG_8653.jpg
 ---
 
-Performed by Citizen Performers
-Created & directed by Lee Cheolsung / Installation·Objets by Kim Hyewon, Ha Sojeong / Music by Lee Jeonghoon 
+### A Heartwarming Hour for You, Who is Fragile As Paper!
 
-A Heartwarming Hour for You, Who is Fragile As Paper!
+&nbsp;
 
-* 'Community Performance' performed by Citizens of Korea, Spain and the World! 
+- 'Community Performance' performed by Citizens of Korea, Spain and the World! 
 - 2016, Performed at Marronnier Park (Korea) (Supported by 'Seoul Street Arts Creation Center')
 - 2016 Performed at Europa Plaza in Tarrega (Spain) (Coproduced with 'Fira Tarrega') 
+{: .list-unstyled}
 
 An installation performance that is co-created by the citizens through the workshop and performance! 
 An art therapy performance that is all the more beautiful for its transience! 

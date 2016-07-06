@@ -65,3 +65,9 @@ body > .container {
   margin-bottom: 0;
   padding: 32px inherit;
 }
+
+.container.about,
+.container.work,
+.container.text {
+  margin-bottom: 16rem;
+}

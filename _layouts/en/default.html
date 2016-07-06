@@ -14,7 +14,7 @@
 
     <nav class="navbar navbar-dark navbar-inverse bg-primary">
       <div class="container">
-        <a class="navbar-brand" href="/">{{ site.en.name }}</a><a href="/en/"></a>
+        <a class="navbar-brand" href="/en/">{{ site.en.name }}</a><a href="/en/"></a>
         <ul class="nav navbar-nav pull-xs-right">
           <li class="nav-item{% if page.url == '/en/about/' %} active{% endif %}">
             <a class="nav-link" href="/en/about/">About{% if page.url == '/en/about/' %} <span class="sr-only">(current)</span>{% endif %}</a>
@@ -27,8 +27,6 @@
     </nav>
 
     {{ content }}
-
-    <p>&nbsp;</p>
 
     <footer class="footer bg-primary">
       <div class="container">

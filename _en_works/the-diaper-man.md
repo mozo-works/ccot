@@ -1,21 +1,32 @@
 ---
 wid: 9
-title: 기저귀 Man
-description: 기저귀 오브제 광대극, 처음으로 아빠가 된 사내의 황당 스토리!
-e_title: The Diaper Man
+title: The Diaper Man
+description: A Farce on the Diaper-Objet. A Sensible Nonsensical Comedy of a newly turned father!
 c_year: 2006
-type: 기저귀 오브제 광대극
-creator:  이철성
-performer:  이철성, 이예지(특별출연)
+type: A Farce on the Diaper-Objet
+creator: Lee Cheol-Sung
+performer: Lee Cheol-Sung 
 r_time: 35
-objet:  몸, 오브제
-img:  diaper
+objet: body
+img: diaper
 video: 
 featured_image: d2.jpg
+doc: diaper.pdf
 ---
 
-사내는 높은 설산의 정상을 도전하는 등산가가 되기도 하고, 만인을 위해 폭탄 위로 몸을 던지는 영웅이 되기도 한다. 그러나 항상 그의 뒤로 일정한 간격을 두고 기저귀 한 뭉치가 따라다닌다. 영웅은 이 기저귀를 참을 수가 없다. 그는 기저귀를 향해 사라질 것을 명령하지만, 달아나면 달아날수록 기저귀는 몸에 달라 붙는다. 미친 듯 경련을 일으키는 사내의 뱃 속으로 기저귀는 들어가고 사내는 살과 뼈가 부서지는 엄청난 산고의 고통을 겪는다. 완전히 탈진하여 모든 것을 포기한 사내는 마침내 아이를 출산한다. 이 세상에 그와 탯줄로 연결된 하나뿐인 아이. 
+### "A Farce on the Diaper-Objet"
+
+### "A Sensible Nonsensical Comedy of a newly turned father!"
+
+&nbsp;
+
+- 2006 "Communication in Daehakro" official invitation
+- 2006 "Seoul Marginal Theater Festival" official invitation
+{: .list-unstyled}
+
+&nbsp;
+
+An unlaughable story between a guy who has just awoken to fatherhood, and a diaper that symbolizes his baby presented as comedy. A farce unrolls through their desperate fight and touching reconciliation in a hilarious yet serious manner.
 
 
-- 2006 축제 ‘커뮤니케이션 인 대학로’ 공식초청
-- 2006 ‘서울변방연극제’ 공식초청"
+A guy, our hero, is at times a mountaineer challenging snowy peaks, and then a true hero throwing his body over a bomb in valiant sacrifice to save others. However wherever he goes or whatever he does, a bundle of diapers always seems to be tagging him from a short distance. This constantly stalking presence unnerves even the bravest of heroes, and he tries ordering the diaper to disappear. But the faster he runs, the closer the diaper follows, attaching itself to his body. His belly shudders in frantic spasms as the diaper worms its way in, and he suffers from the bone-grinding, flesh-mincing pain of childbirth. Consumed and totally exhausted, our hero gives up resistance and finally gives birth to a baby, his only child - inseparable by proof of the sole umbilical connection. Our hero embraces the babe, hugging it to his heart, from the subsiding pain and from his growing love.

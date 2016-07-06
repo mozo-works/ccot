@@ -8,15 +8,17 @@ layout: en/default
   </div>
 </div>
 
-<div class="container">
+<div class="container work">
   <div class="col-lg-8 about-content">
     {{ content }}
 
+    {% if page.video.size > 0 %}
     <h2 class="m-t-2">Video</h2>
-    {% if page.video %}
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ page.video }}" allowfullscreen></iframe>
-      </div>
+    {% for item in page.video %}
+    <div class="embed-responsive embed-responsive-16by9 m-t-2">
+      <iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ item }}" allowfullscreen></iframe>
+    </div>
+    {% endfor %}
     {% endif %}
 
     <h2 class="m-t-2">Pictures</h2>
@@ -37,9 +39,9 @@ layout: en/default
         {% if page.music %}<li>Music: {{ page.music }}</li>{% endif %}
         {% if page.installation %}<li>Installation: {{ page.installation }}</li>{% endif %}
         {% if page.assistant_director %}<li>Assistant director: {{ page.assistant_director }}</li>{% endif %}
-        {% if page.r_time %}<li>Running time : {{ page.r_time }} 분</li>{% endif %}
+        {% if page.r_time %}<li>Running time : {{ page.r_time }}"</li>{% endif %}
         {% if page.objet %}<li>Materials : {{ page.objet }}</li>{% endif %}
-        {% if page.doc %}<li><p><a href="{{ page.doc }}" class="btn btn-info"><i class="fa fa-download" aria-hidden="true"></i> Documents</a></p></li>{% endif %}
+        {% if page.doc %}<li class="m-t-2"><p><a href="/assets/files/en/{{ page.doc }}" class="btn btn-info"><i class="fa fa-download" aria-hidden="true"></i> Document</a></p></li>{% endif %}
       </ol>
     </div>
   </div>

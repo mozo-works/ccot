@@ -14,7 +14,7 @@ r_time: 30
 objet: 
 img: wall
 video: rI76bNKKi2E
-featured_image: w3.jpg
+featured_image: w3.JPG
 ---
 
 - 2016 officially invited at 'Goyang Lake Arts Festival', Goyang

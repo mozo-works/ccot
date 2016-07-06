@@ -4,27 +4,29 @@ layout: en/default
 
 <div class="jumbotron">
   <div class="container">
-    <h1 class="display-6">english!</h1>
-    <p>극단 꽃은 2000년 이스라엘에서 창단되어 2004년부터 국내에서 활동해온 Visual theater company입니다.<br>
-    시각예술과 공연예술을 혼합한 새로운 형식과 내밀한 예술적 세련미! 공연사업과 교육프로그램을 운영합니다.</p>
-    <ul id="download" class="list-inline">
-      <li class="list-inline-item">
-        <p><a class="btn btn-warning" href="/assets/files/introduction.zip">
-          <i class="fa fa-download" aria-hidden="true"></i> 극단 소개 자료
-        </a></p>
-      </li>
-      <li class="list-inline-item">
-        <p><a class="btn btn-warning" href="/assets/files/programs.pdf">
-          <i class="fa fa-download" aria-hidden="true"></i> 프로그램북
-        </a></p>
-      </li>
-      <li class="list-inline-item">
-        <p><a class="btn btn-warning" href="/assets/files/artist_profile_ko.pdf">
-          <i class="fa fa-download" aria-hidden="true"></i> 작가 프로필
-        </a></p>
-      </li>
-
-    </ul>
+    <h1 class="display-6">Visual Theater Company, 'CCOT'</h1>
+    <div class="row">
+      <div class="col-lg-6 clearfix">
+        <p>
+        'CCOT'(is a 'flower' in Korean) is the troupe of performers, painters and musicians.<br>
+        'CCOT' has worked on alternative spaces and outdoor, exploring the depths of life through integrating the mediums of poetry, painting, installation art, and video art.
+        </p>
+      </div>
+      <div class="clearfix col-lg-12">
+        <ul id="download" class="list-inline">
+          <li class="list-inline-item">
+            <p><a class="btn btn-warning" href="/assets/files/programs.pdf">
+              <i class="fa fa-download" aria-hidden="true"></i> Program book
+            </a></p>
+          </li>
+          <li class="list-inline-item">
+            <p><a class="btn btn-warning" href="/assets/files/en/artist_profile_en.pdf">
+              <i class="fa fa-download" aria-hidden="true"></i> Artist profile
+            </a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -34,12 +36,10 @@ layout: en/default
   </div>
   <div class="col-lg-3 col-lg-offset-1 about-sidebar">
     <div class="sidebar-module">
-
       <ol class="list-unstyled">
-        {% for item in site.data.about-nav %}
+        {% for item in site.data.about-nav-en %}
         <li>
-          <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
-          <p>{{ item.description | markdownify }}</p>
+          <h4{% if page.url == item.url %} class="text-muted"{% endif %}>{% if page.url != item.url %}<a href="{{ item.url }}">{% endif %}{{ item.title }}{% if page.url != item.url %}</a>{% endif %}</h4>
         </li>
         {% endfor %}
       </ol>

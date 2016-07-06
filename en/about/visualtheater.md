@@ -2,7 +2,9 @@
 layout: en/about
 ---
 
-++ What is Visual Theater?
+## What is Visual Theater?
+
+&nbsp;
 
 · Visual theater is one of the terms in which a creative act - performed for an audience or with its participation - may be described as an act the language of which is first and foremost that of visual images. This language is not limited to the creation of a visual image. 
 

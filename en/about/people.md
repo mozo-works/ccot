@@ -1,9 +1,19 @@
 ---
 layout: en/about
+title: Creator
 ---
 
-[http://www.visualtheater.net/img/flower/chol.jpg Director Lee Cheol-Sung ]
-++++ Lee Cheol-Sung (Director), Creator, performer
+## Creator
 
-LEE Cheol-Sung, the director of the company, studied the French language and literature at faculty and graduation school in Seoul National University, and majored in directing and acting in 2003 at The School of Visual Theater in Jerusalem, after having studied directing in 1996 at Performing Arts Academy, organized by Korean Culture and Arts Foundation.
-He has learned Korean traditional dances as well as various types of traditional performances of the Middle East, Indonesia and the West in Korea, Germany and Israel. He is a poet and published several his poetry books.
+&nbsp;
+
+![Director Lee Cheol-Sung](/assets/images/flower/chol.jpg)
+
+Lee Cheol-Sung (Director), Creator, performe
+
+CheolSung Lee, the leader of CCOT(Visual Theater Troupe) and CCOTBBAT(Space for Experiential Art), is an artist who combines poetry, art and performance.
+He studied the French literature(especially poetry) at faculty and graduation school in Seoul National University, and majored in ‘visual theater’ in 2000-2003 at The School of Visual Theater in Israel.
+
+He has showcased experimental performances that use the mediums of poetry, painting, installation art, and video art. Over the last decade, he has been invited internationally as an official guest to numerous experimental art festivals, street theater festivals, and other theaters, and has won the Seoul Children's Theater Prize's Best Artwork Award, Best Acting Award, and Most Popular Award for two times, not to mention the UNIMA Congress's Excellent Visual Effect Award. 
+On other fronts, as a poet and traveler he has trekked through the wilds of more than 30 different countries, and has had two collections of poems published, based his experiences.
+

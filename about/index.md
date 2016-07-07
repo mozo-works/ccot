@@ -2,10 +2,6 @@
 layout: about
 ---
 
-### Visual Theater Company 꽃
-
-&nbsp;
-
 ![intro](/assets/images/flower/intro3.jpg){: .img-fluid }
 
 - 16‘ 서울문화재단 거리예술창작지원 선정(시민 공동제작 프로젝트 ’마사지사‘)_대학로 마로니에 공원 공연

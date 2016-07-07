@@ -1,11 +1,11 @@
 ---
 layout: en/about
-title: Visual Theater Company, 'CCOT'
+title: CCOT
 ---
 
 ## About
 
-'CCOT'  was established in Jerusalem in 2000 by Cheolsung Lee and Jinyoung Kim, both who then was studying at 'The School of Visual Theater' in Jerusalem, Israel. 
+'CCOT' was established in Jerusalem in 2000 by Cheolsung Lee and Jinyoung Kim, both who then was studying at 'The School of Visual Theater' in Jerusalem, Israel. 
 
 It has presented its visual performances internationally in Europe, South America and Asia(specially 'Chalon dan la Rue' in France, 'Fira Tarrega' in Spain, etc.).
 

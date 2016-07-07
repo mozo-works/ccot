@@ -25,9 +25,12 @@ exclude:
 sass:
   style: :compressed
 
+markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  entity_output: :as_input
+  hard_wrap: true
 
 gems:
   - jekyll-seo-tag

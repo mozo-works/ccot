@@ -1,11 +1,28 @@
 ---
-
 # front page
+
+introduction: |
+  비주얼씨어터 꽃은 2000년 이스라엘에서 창단되어 2004년부터 국내에서 활동해온 Visual theater company입니다.
+  시각예술과 공연예술을 혼합한 새로운 형식과 내밀한 예술적 세련미! 공연사업과 교육프로그램을 운영합니다.
+
 banner:
-  title: 인도 마사지사
-  when: 2016년 7월 15일
-  where: 인도
+  title: 인도 종이창문 공연
+  when: 2016년 7월 10 ~ 27일
+  where:
   description:
   bg-image: 20160606/indian-massager.jpg
   long-image:
   ticket:
+
+en:
+  introduction: |
+    CCOT'(is a 'flower' in Korean) is the troupe of performers, painters and musicians.
+    'CCOT' has worked on alternative spaces and outdoor, exploring the depths of life through integrating the mediums of poetry, painting, installation art, and video art.
+  banner:
+    title: Paper Window on India
+    when: July 10 ~ 27 2016
+    where:
+    description:
+    bg-image: 20160606/indian-massager.jpg
+    long-image:
+    ticket:

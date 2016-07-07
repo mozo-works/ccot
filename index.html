@@ -13,15 +13,19 @@ layout: default
 
 <section id="front-banner" class="jumbotron" style="background-image: url('/assets/images/banners/{{ site.data.front.banner.bg-image }}');">
   <div class="container">
+    {% if site.data.front.banner.title %}
     <h1 class="display-4"><span class="bg-warning">{{ site.data.front.banner.title }}</span></h1>
+    {% endif %}
     <ul class="list-unstyled">
-      <li><span class="bg-warning lead">{{ site.data.front.banner.when }}</span></li>
-      <li><span class="bg-warning lead">{{ site.data.front.banner.where }}</span></li>
-    </p>
+      {% if site.data.front.banner.when %}<li><span class="bg-warning lead">{{ site.data.front.banner.when }}</span></li>{% endif %}
+      {% if site.data.front.banner.where %}<li><span class="bg-warning lead">{{ site.data.front.banner.where }}</span></li>{% endif %}
+    </ul>
+    {% if site.data.front.banner.description %}
     <p>{{ site.data.front.banner.description }}</p>
-    {% if site.data.front.banner.long-image %}
+    {% endif %}
+    {% if site.data.front.banner.ticket %}
     <p class="lead">
-      <a class="btn btn-success btn-lg" href="/about/" role="button">자세히 보기</a>
+      <a class="btn btn-success btn-lg" href="{{ site.data.front.en.banner.ticket }}" role="button">예매하기</a>
     </p>
     {% endif %}
   </div>
@@ -38,10 +42,7 @@ layout: default
     </div>
     <div class="col-md-6">
       <p class="lead">
-        {{ site.name }}은 2000년 이스라엘에서 창단되어 2004년부터 국내에서 활동해온 Visual theater company입니다.
-      </p>
-      <p class="lead">
-        시각예술과 공연예술을 혼합한 새로운 형식과 내밀한 예술적 세련미! 공연사업과 교육프로그램을 운영합니다.
+        {{ site.data.front.introduction | newline_to_br }}
       </p>
     </div>
   </div>

@@ -11,17 +11,21 @@ layout: en/default
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<section id="front-banner" class="jumbotron" style="background-image: url('/assets/images/banners/{{ site.data.front.banner.bg-image }}');">
+<section id="front-banner" class="jumbotron en">
   <div class="container">
-    <h1 class="display-4"><span class="bg-warning">Indian massager</span></h1>
+    {% if site.data.front.en.banner.title %}
+    <h1 class="display-4"><span class="bg-warning">{{ site.data.front.en.banner.title }}</span></h1>
+    {% endif %}
     <ul class="list-unstyled">
-      <li><span class="bg-warning lead">2016. 07. 15</span></li>
-      <li><span class="bg-warning lead">India</span></li>
-    </p>
-    <p>{{ site.data.front.banner.description }}</p>
-    {% if site.data.front.banner.long-image %}
+      {% if site.data.front.en.banner.when %}<li><span class="bg-warning lead">{{ site.data.front.en.banner.when }}</span></li>{% endif %}
+      {% if site.data.front.en.banner.where %}<li><span class="bg-warning lead">{{ site.data.front.en.banner.where }}</span></li>{% endif %}
+    </ul>
+    {% if site.data.front.en.banner.description %}
+    <p>{{ site.data.front.en.banner.description }}</p>
+    {% endif %}
+    {% if site.data.front.en.banner.ticket %}
     <p class="lead">
-      <a class="btn btn-success btn-lg" href="/about/" role="button">more</a>
+      <a class="btn btn-success btn-lg" href="{{ site.data.front.en.banner.ticket }}" role="button">Ticket</a>
     </p>
     {% endif %}
   </div>
@@ -37,8 +41,7 @@ layout: en/default
     </div>
     <div class="col-md-6">
       <p class="lead">
-        CCOT'(is a 'flower' in Korean) is the troupe of performers, painters and musicians.<br>
-        'CCOT' has worked on alternative spaces and outdoor, exploring the depths of life through integrating the mediums of poetry, painting, installation art, and video art.
+        {{ site.data.front.en.introduction | newline_to_br }}
       </p>
     </div>
   </div>

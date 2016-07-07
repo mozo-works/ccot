@@ -1,14 +1,13 @@
 ---
 wid: 15
 title: 마사지사
-description: 신체와 육성, 일상의 공간과 사물, 라이브음악이 시와 만나는 시 퍼포먼스
+description: “종이처럼 부서지기 쉬운 당신..., 당신을 안아주는 시간!” 한국, 스페인, 그리고 세계의 시민들과 함께 만들어 갈 ‘공동체 공연’!
 c_year: 2016
 type: 관객과 함께 만드는 힐링 설치 퍼포먼스
 creator: 이철성
 performer: 이철성
 music: 이정훈
 installation: 김혜원, 하소정
-assistant_director: 한윤미
 assiatant_producer: 유병진
 r_time: 60
 objet: 

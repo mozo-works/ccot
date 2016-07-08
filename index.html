@@ -7,7 +7,7 @@ layout: default
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.6&appId=618140558345676";
+  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.6&appId={{ site.facebook.app_id }}";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
@@ -36,9 +36,15 @@ layout: default
     <div class="col-md-6">
       <h2 class="display-5">{{ site.name }}</h2>
       <p class="lead">{{ site.data.front.about.description }}</p>
-      <p><a class="btn btn-success" href="/about/" role="button">자세히 보기</a></p>
-      <div class="fb-like" data-href="https://www.facebook.com/visualtheaterccot" data-layout="button-count" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
-    </p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <p><a class="btn btn-success" href="/about/" role="button"><i class="fa fa-info-circle" aria-hidden="true"></i> &nbsp;&nbsp;자세히 보기</a></p>
+        </li>
+        <li class="list-inline-item">
+          <p><a class="btn" href="{{ site.facebook.publisher }}" target="_blank" style="background: rgb(66, 103, 178); color: #fff;"><i class="fa fa-facebook" aria-hidden="true"></i> &nbsp;&nbsp;페이스북 페이지</a></p>
+        </li>
+      </ul>
+      <div class="fb-like" data-href="{{ site.facebook.publisher }}" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
     </div>
     <div class="col-md-6">
       <p class="lead">
@@ -93,4 +99,3 @@ layout: default
     </div>
   </div>
 </section>
-

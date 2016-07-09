@@ -12,6 +12,11 @@ en:
 timezone: 'Asia/Seoul'
 permalink: pretty
 
+# SEO
+facebook:
+  app_id: 618140558345676
+  publisher: https://www.facebook.com/visualtheaterccot
+
 # Build
 exclude:
   - .jekyll-metadata

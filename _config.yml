@@ -53,6 +53,9 @@ collections:
   texts:
     output: true
     permalink: /text/:path/
+  en_texts:
+    output: true
+    permalink: /en/text/:path/
   press:
     output: false
 
@@ -72,3 +75,8 @@ defaults:
       path: _texts
     values:
       layout: text
+  -
+    scope:
+      path: _en_texts
+    values:
+      layout: en/text

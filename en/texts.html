@@ -1,16 +1,16 @@
 ---
-layout: text
-title: 시와 산문
+layout: en/text
+title: Poetry &amp; Prose
 ---
 
 <div class="container">
   <div class="row">
-  {% assign texts = site.texts | sort:"date" | reverse %}
+  {% assign texts = site.en_texts | sort:"date" | reverse %}
   {% for text in texts %}
     <article class="text col-xs-12" style="margin: .5em 0">
       <small class="pull-md-right" style="margin-top: 5px;">
         <time class="text-date text-muted" datetime="{{ text.date | date:"%Y-%m-%d" }}">
-          {{ text.date | date:"%Y년 %m월 %d일" }}
+          {{ text.date | date:"%Y. %m. %d" }}
         </time>
       </small>
       <h3 class="text-title"><a href="{{ text.url }}">{{ text.title }}</a></h3>

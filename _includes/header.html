@@ -1,12 +1,14 @@
-<nav class="navbar navbar-dark navbar-inverse bg-primary">
-  <div class="container">
-    <a class="navbar-brand" href="/">{{ site.name }}</a><a href="/en/"><small class="label label-default">English</small></a>
-    <ul class="nav navbar-nav pull-xs-right">
-      {% for item in site.data.menu %}
-      <li class="nav-item{% if page.url == item.url %} active{% endif %}">
-        <a class="nav-link" href="{{ item.url }}">{{ item.title }}{% if page.url == item.url %} <span class="sr-only">(current)</span>{% endif %}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</nav>
+<div class="bg-primary">
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="/">{{ site.name }}</a><a href="/en/"><small class="label label-default">English</small></a>
+      <ul class="nav navbar-nav navbar-right">
+        {% for item in site.data.menu %}
+        <li class="nav-item{% if page.url == item.url %} active{% endif %}">
+          <a class="nav-link" href="{{ item.url }}">{{ item.title }}{% if page.url == item.url %} <span class="sr-only">(current)</span>{% endif %}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</div>

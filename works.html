@@ -5,29 +5,24 @@ layout: default
 
 <div class="jumbotron">
   <div class="container">
-    <h1 class="display-4">작품</h1>
+    <h2 class="display-4">작품</h2>
   </div>
 </div>
 
 <div class="container">
   <div class="row">
-    <div class="card-columns">
-      {% assign works = site.works | sort:"wid" | reverse  %}
-      {% for work in works %}
-      {% assign featured_image = 'http://placehold.it/400x225' %}
-      {% if work.featured_image %}
-        {% assign featured_image = '/assets/images/work/' | append: work.img | append: '/' | append: work.featured_image %}
-      {% endif %}
-      <div class="card">
-        <a href="{{ work.id }}"><img class="card-img-top img-fluid" src="{{ featured_image }}" alt="Card image cap"></a>
-        <div class="card-block">
-          <h4 class="card-title"><a href="{{ work.id }}">{{ work.title }}</a></h4>
-          <p class="card-text">{{ work.description }}</p>
-        </div>
-      </div>
-      {% endfor %}
+    {% assign works = site.works | sort:"wid" | reverse  %}
+    {% for work in works %}
+    {% assign featured_image = 'http://placehold.it/400x225' %}
+    {% if work.featured_image %}
+      {% assign featured_image = '/assets/images/work/' | append: work.img | append: '/' | append: work.featured_image %}
+    {% endif %}
+    <div class="col-md-4">
+      <a href="{{ work.id }}"><img class="img-responsive" src="{{ featured_image }}" alt="{{ work.title }}"></a>
+      <h4 class="card-title"><a href="{{ work.id }}">{{ work.title }}</a></h4>
+      <p class="card-text">{{ work.description }}</p>
     </div>
+    {% endfor %}
   </div>
-
 </div>
 

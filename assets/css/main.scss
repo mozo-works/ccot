@@ -4,39 +4,6 @@
 @import "variables";
 @import "bootstrap/bootstrap";
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
-  background-color: #f5f5f5;
-}
-
-
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-body > .container {
-  padding: 60px 15px 0;
-}
-
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
-}
 
 .jumbotron {
   position: relative;
@@ -46,34 +13,75 @@ body > .container {
   height: 100%;
   border-radius: 0;
 }
+.front .jumbotron {
+  margin-bottom: 0;
+}
 
-.card a {
-  text-decoration: none;
-  &:hover {
-    color: $gray-light;
+.navbar {
+  margin-bottom: 0;
+  padding-top: 5px;
+  .navbar-brand {
+    color: #fff;
+    font-size: 160%;
+  }
+  .nav-link {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 110%;
+    margin-top: 5px;
+    color: $gray-lighter;
+    &:hover {
+      background: transparent;
+      color: #fff;
+      font-weight: 900;
+    }
+  }
+  .nav-item.active .nav-link {
+    color: #fff;
+    font-weight: 900;
   }
 }
 
-#front-banner {
-  padding: 80px 32px;
-  margin-bottom: 0;
-  background-image: url('/assets/images/banners/{{ site.data.front.banner.bg-image }}');
+.footer {
+  padding: 15px 0;
 }
 
-{% if site.data.front.en.banner %}
-#front-banner.en {
-  background-image: url('/assets/images/banners/{{ site.data.front.en.banner.bg-image }}');
-}
-{% endif %}
+.front {
+  #front-banner {
+    padding: 80px 32px;
+    margin-bottom: 0;
+    background-image: url('/assets/images/banners/{{ site.data.front.banner.bg-image }}');
+    .bg-warning {
+      display: inline-block;
+      padding: 5px;
+    }
+  }
 
-#front-about,
-#front-works {
-  margin-bottom: 0;
-  padding: 32px inherit;
+  {% if site.data.front.en.banner %}
+  #front-banner.en {
+    background-image: url('/assets/images/banners/{{ site.data.front.en.banner.bg-image }}');
+  }
+  {% endif %}
+
+  #front-about,
+  #front-works {
+    margin-bottom: 0;
+    padding: 32px inherit;
+  }
 }
 
 .container.about,
 .container.work,
 .container.text {
   margin-bottom: 16rem;
+  img {
+    max-width: 100%;
+  }
+}
+
+.col-md-4 {
+  min-height: 360px;
+  margin-bottom: 15px;
 }

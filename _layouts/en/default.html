@@ -6,40 +6,53 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.en.name }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
-  <body>
+  <body{% if page.url %} class="{{ page.url | replace:'/',' ' | lstrip | rstrip }}{% if page.url == '/en/' %} front{% endif %}"{% endif %}>
 
-    <nav class="navbar navbar-dark navbar-inverse bg-primary">
+    <div class="navbar bg-primary">
       <div class="container">
-        <a class="navbar-brand" href="/en/">{{ site.en.name }}</a><a href="/en/"></a>
-        <ul class="nav navbar-nav pull-xs-right">
-          <li class="nav-item{% if page.url == '/en/about/' %} active{% endif %}">
-            <a class="nav-link" href="/en/about/">About{% if page.url == '/en/about/' %} <span class="sr-only">(current)</span>{% endif %}</a>
-          </li>
-          <li class="nav-item{% if page.url == '/en/works/' %} active{% endif %}">
-            <a class="nav-link" href="/en/works/">Works{% if page.url == '/en/works/' %} <span class="sr-only">(current)</span>{% endif %}</a>
-          </li>
-          <li class="nav-item{% if page.url == '/en/texts/' %} active{% endif %}">
-            <a class="nav-link" href="/en/texts/">Poetry &amp; Prose{% if page.url == '/en/texts/' %} <span class="sr-only">(current)</span>{% endif %}</a>
-          </li>
-        </ul>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/en/">{{ site.en.name }}</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item{% if page.url == '/en/about/' %} active{% endif %}">
+              <a class="nav-link" href="/en/about/">About{% if page.url == '/en/about/' %} <span class="sr-only">(current)</span>{% endif %}</a>
+            </li>
+            <li class="nav-item{% if page.url == '/en/works/' %} active{% endif %}">
+              <a class="nav-link" href="/en/works/">Works{% if page.url == '/en/works/' %} <span class="sr-only">(current)</span>{% endif %}</a>
+            </li>
+            <li class="nav-item{% if page.url == '/en/texts/' %} active{% endif %}">
+              <a class="nav-link" href="/en/texts/">Poetry &amp; Prose{% if page.url == '/en/texts/' %} <span class="sr-only">(current)</span>{% endif %}</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </nav>
+    </div>
 
     {{ content }}
 
-    <footer class="footer bg-primary">
+    <div class="footer bg-primary">
       <div class="container">
         <span>Copyright 2016 © Visual theater Company, CCOT. All rights reserved.</span>
       </div>
-    </footer>
+    </div>
 
-    <!-- JavaScript -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.3.2/js/tether.min.js"></script>
-    <script src="//cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script type='text/javascript' src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
   </body>
 </html>

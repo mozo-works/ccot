@@ -42,6 +42,9 @@
     color: #fff;
     font-weight: 900;
   }
+  .navbar-right {
+    padding-left: .5em;
+  }
 }
 
 .footer {
@@ -70,6 +73,10 @@
     margin-bottom: 0;
     padding: 32px inherit;
   }
+
+  .col-md-6, .col-md-4 {
+    margin-bottom: 30px;
+  }
 }
 
 .container.about,
@@ -81,7 +88,17 @@
   }
 }
 
-.col-md-4 {
-  min-height: 360px;
-  margin-bottom: 15px;
+.works {
+  .col-md-4 {
+    min-height: 360px;
+    margin-bottom: 15px;
+  }
+}
+
+.en.works .col-md-4 {
+  min-height: 440px;
+}
+
+.icon-bar {
+  background-color: #fff;
 }

@@ -8,7 +8,7 @@ title: Poetry &amp; Prose
   {% assign texts = site.en_texts | sort:"date" | reverse %}
   {% for text in texts %}
     <article class="text col-xs-12" style="margin: .5em 0">
-      <small class="pull-md-right" style="margin-top: 5px;">
+      <small class="pull-right" style="margin-top: 5px;">
         <time class="text-date text-muted" datetime="{{ text.date | date:"%Y-%m-%d" }}">
           {{ text.date | date:"%Y. %m. %d" }}
         </time>

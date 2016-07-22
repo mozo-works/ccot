@@ -11,7 +11,7 @@ layout: default
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div id="front-banner" class="jumbotron" style="background-image: url('/assets/images/banners/{{ site.data.front.banner.bg-image }}');">
+<div id="front-banner" class="jumbotron" style="background-image: url('/assets/images/banners/{{ site.data.front.banner.bg-image }}'); background-position: cover;">
   <div class="container">
     {% if site.data.front.banner.title %}
     <h1 class="display-4"><span class="bg-warning text-warning">{{ site.data.front.banner.title }}</span></h1>
@@ -65,7 +65,7 @@ layout: default
         {% assign featured_image = '/assets/images/work/' | append: work.img | append: '/' | append: work.featured_image %}
       {% endif %}
       <div class="col-md-4">
-        <a href="{{ work.id }}"><img class="img-responsive" src="{{ featured_image }}" alt="Card image cap"></a>
+        <a href="{{ work.id }}"><img class="img-responsive" src="{{ featured_image }}" alt="{{ work.title }}"></a>
         <h4 class="card-title"><a href="{{ work.id }}">{{ work.title }}</a></h4>
         <p class="card-text text-muted">{{ work.description }}</p>
         <a href="{{ work.id }}" class="btn btn-success">더 알아보기</a>

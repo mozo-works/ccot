@@ -8,7 +8,7 @@ title: 시와 산문
   {% assign texts = site.texts | sort:"date" | reverse %}
   {% for text in texts %}
     <article class="text col-xs-12" style="margin: .5em 0">
-      <small class="pull-md-right" style="margin-top: 5px;">
+      <small class="pull-right" style="margin-top: 5px;">
         <time class="text-date text-muted" datetime="{{ text.date | date:"%Y-%m-%d" }}">
           {{ text.date | date:"%Y년 %m월 %d일" }}
         </time>

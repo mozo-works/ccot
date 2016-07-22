@@ -11,7 +11,7 @@ layout: en/default
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<section id="front-banner" class="jumbotron en">
+<div id="front-banner" class="jumbotron en" style="background-image: url('/assets/images/banners/{{ site.data.front.banner.bg-image }}'); background-position: cover;">
   <div class="container">
     {% if site.data.front.en.banner.title %}
     <h1 class="display-4"><span class="bg-warning">{{ site.data.front.en.banner.title }}</span></h1>
@@ -29,9 +29,9 @@ layout: en/default
     </p>
     {% endif %}
   </div>
-</section>
+</div>
 
-<section id="front-about" class="jumbotron bg-default">
+<div id="front-about" class="jumbotron bg-default">
   <div class="container">
     <div class="col-md-6">
       <h2 class="display-5">{{ site.en.name }}</h2>
@@ -52,11 +52,11 @@ layout: en/default
       </p>
     </div>
   </div>
-</section>
+</div>
 
-<section id="front-works" class="jumbotron bg-warning">
+<div id="front-works" class="jumbotron bg-warning">
   <div class="container">
-    <h2 class="text-xs-center m-b-2"><a href="/en/works/" class="bg-warning">Works</a></h2>
+    <h2 class="text-center m-b-2"><a href="/en/works/" class="bg-warning">Works</a></h2>
     <div class="row">
       {% assign works = site.en_works | sort:"wid" | reverse %}
       {% for work in works limit:3 %}
@@ -65,16 +65,12 @@ layout: en/default
         {% assign featured_image = '/assets/images/work/' | append: work.img | append: '/' | append: work.featured_image %}
       {% endif %}
       <div class="col-md-4">
-        <div class="card">
-          <a href="{{ work.id }}"><img class="card-img-top img-fluid" src="{{ featured_image }}" alt="Card image cap"></a>
-          <div class="card-block">
-            <h4 class="card-title"><a href="{{ work.id }}">{{ work.title }}</a></h4>
-            <p class="card-text text-muted">{{ work.description }}</p>
-            <a href="{{ work.id }}" class="btn btn-success">more</a>
-          </div>
-        </div>
+        <a href="{{ work.id }}"><img class="img-responsive" src="{{ featured_image }}" alt="{{ work.title }}"></a>
+        <h4 class="card-title"><a href="{{ work.id }}">{{ work.title }}</a></h4>
+        <p class="card-text text-muted">{{ work.description }}</p>
+        <a href="{{ work.id }}" class="btn btn-success">more</a>
       </div>
       {% endfor %}
     </div>
   </div>
-</section>
+</div>

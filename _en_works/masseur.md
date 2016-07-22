@@ -13,7 +13,7 @@ assiatant_producer: Yoo Byeongjun
 r_time: 60
 objet: 
 img: masseur
-video: 
+video: Yxd-SmKKcNY
 featured_image: IMG_8653.jpg
 ---
 

@@ -16,6 +16,8 @@ permalink: pretty
 facebook:
   app_id: 618140558345676
   publisher: https://www.facebook.com/visualtheaterccot
+logo: /assets/images/template/logo.png
+google_site_verification: dnwLvZ3C5wU5YCtIEPxiVDcL9Wr019enF7IOYXz9xII
 
 # Build
 exclude:
@@ -40,7 +42,6 @@ kramdown:
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
 
 # collections
 collections:
@@ -60,6 +61,13 @@ collections:
     output: false
 
 defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image:
+        twitter: /assets/images/work/masseur/IMG_2165.jpg
+        facebook: /assets/images/work/masseur/IMG_2165.jpg
   -
     scope:
       path: _works

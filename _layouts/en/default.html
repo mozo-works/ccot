@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body{% if page.url %} class="{{ page.url | replace:'/',' ' | lstrip | rstrip }}{% if page.url == '/en/' %} front{% endif %}"{% endif %}>
+    {% include ga.html %}
 
     <div class="navbar bg-primary">
       <div class="container">

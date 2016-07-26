@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body{% if page.url %} class="{{ page.url | replace:'/',' ' | lstrip | rstrip }}{% if page.url == '/' %}front{% endif %}"{% endif %}>
+    {% include ga.html %}
 
     {% include header.html %}
 

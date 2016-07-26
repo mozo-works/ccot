@@ -19,6 +19,8 @@ facebook:
 logo: /assets/images/template/logo.png
 google_site_verification: dnwLvZ3C5wU5YCtIEPxiVDcL9Wr019enF7IOYXz9xII
 
+google_analytics: UA-81266340-1
+
 # Build
 exclude:
   - .jekyll-metadata

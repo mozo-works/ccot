@@ -4,7 +4,8 @@
 @import "variables";
 @import "bootstrap/bootstrap";
 
-.wf-loading * {
+.wf-loading *,
+.wf-inactive * {
   font-family: Arial, Helvetica, sans-serif;
 }
 

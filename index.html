@@ -12,7 +12,7 @@ layout: default
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="front-banner" class="jumbotron" style="background-image: url('/assets/images/banners/{{ site.data.front.banner.bg-image }}'); background-position: cover;">
-  <div class="container">
+  <div class="container"{% if site.data.front.banner.link %} onclick="location.href='{{ site.data.front.banner.link }}'"{% endif %}>
     {% if site.data.front.banner.title %}
     <h1 class="display-4"><span class="bg-warning text-warning">{{ site.data.front.banner.title }}</span></h1>
     {% endif %}

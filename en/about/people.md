@@ -9,7 +9,7 @@ title: Creator
 
 ![Director Lee Cheol-Sung](/assets/images/flower/chol.jpg)
 
-Lee Cheol-Sung (Director), Creator, performe
+Lee Cheol-Sung (Director), Creator, performer
 
 CheolSung Lee, the leader of CCOT(Visual Theater Troupe) and CCOTBBAT(Space for Experiential Art), is an artist who combines poetry, art and performance.
 He studied the French literature(especially poetry) at faculty and graduation school in Seoul National University, and majored in ‘visual theater’ in 2000-2003 at The School of Visual Theater in Israel.

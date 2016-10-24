@@ -8,8 +8,16 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.wf-active {
+:lang(ko).wf-active * {
   font-family: 'Noto Sans KR';
+}
+:lang(en).wf-active * {
+  font-family: 'Roboto';
+}
+
+:lang(ko).wf-active .fa,
+:lang(en).wf-active .fa {
+  font-family: 'FontAwesome';
 }
 
 .jumbotron {

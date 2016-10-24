@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.en.name }}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.en.description }}{% endif %}">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!-- CSS -->
@@ -45,9 +45,22 @@
 
     {{ content }}
 
+    {% assign repository = site.github.public_repositories | where: "full_name", site.repository %}
+    {% assign repo = repository[0] %}
+    {% capture edit_prose %}http://prose.io/#{{ repo.full_name }}/edit/{{ repo.default_branch }}/{{ page.path }}{% endcapture %}
+
     <div class="footer bg-primary">
       <div class="container">
-        <span>Copyright 2016 © Visual theater Company, CCOT. All rights reserved.</span>
+        <div class="row">
+          <div class="col-md-9">
+            <span>Copyright {{ 'now' | date: "%Y" }} © Visual theater Company, CCOT. All rights reserved.</span>
+          </div>
+          <div class="col-md-3">
+            <ul class="list-inline pull-right">
+              <li><a href="{{ edit_prose }}"><i class="fa fa-pencil-square-o fa-3x"></i></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -56,13 +69,15 @@
     <script type='text/javascript' src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
     <![endif]-->
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
-    <script>
-      WebFont.load({
-        custom: {
-          families: ['Spoqa Han Sans']
-        }
-      });
+    <script type="text/javascript">
+      WebFontConfig = {
+        google: { families: ["Roboto:100,500,900"] }
+      };
+      (function(d) {
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js';
+        s.parentNode.insertBefore(wf, s);
+      })(document);
     </script>
   </body>
 </html>

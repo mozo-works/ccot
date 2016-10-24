@@ -1,6 +1,5 @@
 ---
 ---
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import "variables";
 @import "bootstrap/bootstrap";
 
@@ -9,6 +8,9 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.wf-active {
+  font-family: 'Noto Sans KR';
+}
 
 .jumbotron {
   position: relative;

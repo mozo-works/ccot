@@ -33,7 +33,16 @@ layout: en/default
 
 <div id="front-about" class="jumbotron bg-default">
   <div class="container">
-    <div class="col-md-6">
+    <div class="col-md-4">
+      <p>&nbsp;</p>
+      <p><img src="/assets/images/flower/logo.png" alt="logo" class="img-responsive" /></p>
+    </div>
+    <div class="col-md-4">
+      <p class="lead">
+        {{ site.data.front.en.introduction | newline_to_br }}
+      </p>
+    </div>
+    <div class="col-md-4">
       <h2 class="display-5">{{ site.en.name }}</h2>
       <ul class="list-inline">
         <li class="list-inline-item">
@@ -46,11 +55,7 @@ layout: en/default
       <div class="fb-like" data-href="https://www.facebook.com/visualtheaterccot" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
     </p>
     </div>
-    <div class="col-md-6">
-      <p class="lead">
-        {{ site.data.front.en.introduction | newline_to_br }}
-      </p>
-    </div>
+
   </div>
 </div>
 

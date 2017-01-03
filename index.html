@@ -33,7 +33,17 @@ layout: default
 
 <div id="front-about" class="jumbotron bg-default">
   <div class="container">
-    <div class="col-md-6">
+    <div class="col-md-4">
+      <p>&nbsp;</p>
+      <p><img src="/assets/images/flower/logo.png" alt="로고" class="img-responsive" /></p>
+    </div>
+    <div class="col-md-4">
+      <br />
+      <p class="lead">
+        {{ site.data.front.introduction | newline_to_br }}
+      </p>
+    </div>
+    <div class="col-md-4">
       <h2 class="display-5">{{ site.name }}</h2>
       <p class="lead">{{ site.data.front.about.description }}</p>
       <ul class="list-inline">
@@ -45,11 +55,6 @@ layout: default
         </li>
       </ul>
       <div class="fb-like" data-href="{{ site.facebook.publisher }}" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
-    </div>
-    <div class="col-md-6">
-      <p class="lead">
-        {{ site.data.front.introduction | newline_to_br }}
-      </p>
     </div>
   </div>
 </div>

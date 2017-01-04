@@ -9,6 +9,15 @@
     <!-- CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosanskr.css">
+    <style>
+      .wf-loading *,
+      .wf-inactive * {
+        font-family: 'Noto Sans KR', 'NanumSquare', 'Malgun Gothic' !important;
+      }
+    </style>
+    <![endif]-->
   </head>
   <body{% if page.url %} class="{{ page.url | replace:'/',' ' | lstrip | rstrip }}{% if page.url == '/' %}front{% endif %}"{% endif %}>
     {% include ga.html %}

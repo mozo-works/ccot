@@ -8,9 +8,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-:lang(ko).wf-active * {
-  font-family: 'Noto Sans KR';
-}
 :lang(en).wf-active * {
   font-family: 'Roboto';
 }
@@ -89,8 +86,28 @@
     padding: 32px inherit;
   }
 
+  #front-about p.lead {
+    font-size: 21px !important;
+    line-height: 1.6;
+  }
+
+  #front-works p.card-text {
+    font-size: 18px;
+  }
+
+  #front-ccotbbat {
+    h2 {
+      margin-top: 12px;
+    }
+    .lead.desc {
+      margin-top: 30px;
+      line-height: 1.6;
+    }
+  }
+
   .col-md-6, .col-md-4 {
     margin-bottom: 30px;
+    overflow: hidden;
   }
 }
 

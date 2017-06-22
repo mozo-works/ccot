@@ -14,14 +14,14 @@ layout: en/default
 <div id="front-banner" class="jumbotron en" style="background-image: url('/assets/images/banners/{{ site.data.front.banner.bg-image }}'); background-position: cover;">
   <div class="container"{% if site.data.front.en.banner.link %} onclick="location.href='{{ site.data.front.en.banner.link }}'"{% endif %}>
     {% if site.data.front.en.banner.title %}
-    <h1 class="display-4"><span class="bg-warning">{{ site.data.front.en.banner.title }}</span></h1>
+    <h1 class="display-4"><span class="bg-warning text-warning">{{ site.data.front.en.banner.title }}</span></h1>
     {% endif %}
     <ul class="list-unstyled">
       {% if site.data.front.en.banner.when %}<li><span class="bg-warning lead">{{ site.data.front.en.banner.when }}</span></li>{% endif %}
       {% if site.data.front.en.banner.where %}<li><span class="bg-warning lead">{{ site.data.front.en.banner.where }}</span></li>{% endif %}
     </ul>
     {% if site.data.front.en.banner.description %}
-    <p>{{ site.data.front.en.banner.description }}</p>
+    <div class="bg-warning text-warning">{{ site.data.front.en.banner.description | markdownify }}</div>
     {% endif %}
     {% if site.data.front.en.banner.ticket %}
     <p class="lead">

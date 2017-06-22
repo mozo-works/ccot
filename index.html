@@ -21,7 +21,7 @@ layout: default
       {% if site.data.front.banner.where %}<li><span class="bg-warning text-warning lead">{{ site.data.front.banner.where }}</span></li>{% endif %}
     </ul>
     {% if site.data.front.banner.description %}
-    <p>{{ site.data.front.banner.description }}</p>
+    <div class="bg-warning text-warning">{{ site.data.front.banner.description | markdownify }}</div>
     {% endif %}
     {% if site.data.front.banner.ticket %}
     <p class="lead">

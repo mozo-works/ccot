@@ -7,9 +7,13 @@ introduction: |
 
 banner:
   title: 공연 ‘마사지사’
-  when: 2016년 9월 9~11일 11시
-  where: 스페인 피라타레가 유로파 광장
-  description:
+  when:
+  where:
+  description: |
+    러시아 상트페테르부르크 ‘국제거리극축제 Elagin Park' (2017년 6월 3~4일)
+    영국 런던 ‘그리니치 도클랜드 국제축제’ (2017년 6월 24~25일)
+    영국 ‘스톡튼 국제강변축제’ (2017년 8월 4~6일)
+    한국 ‘서울거리예술축제’ (2017년 10월 5~8일)
   bg-image: 20160831/IMG_9887.jpeg
   link: http://visualtheater.kr/work/masseur/
   long-image:
@@ -21,9 +25,13 @@ en:
     'CCOT' has worked on alternative spaces and outdoor, exploring the depths of life through integrating the mediums of poetry, painting, installation art, and video art.
   banner:
     title: 'Massager'
-    when: 11am, 9~11th Sep. 2016
-    where: Placa d'Europa, Fira Tarrega in Spain
-    description:
+    when:
+    where:
+    description: |
+      International Street Theatres Festival "Elagin Park" (Saint-Petersburg, Russia) / 3~4th June 2017
+      Greenwich+Docklands International Festival (London, UK) / 24~25th June 2017
+      Stockton International Riverside Festival (Stockton, UK) / 4~6th Aug. 2017
+      Seoul Street Arts Festival (Seoul, Korea) / 5~8th Oct. 2017
     bg-image: 20160831/IMG_9887.jpeg
     link: http://visualtheater.kr/en/work/masseur/
     long-image:

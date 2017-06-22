@@ -3,18 +3,19 @@ wid: 11
 title: 시(詩) 퍼포먼스 늑대의 옷
 description: 신체와 육성, 일상의 공간과 사물, 라이브음악이 시와 만나는 시 퍼포먼스
 e_title: The clothes of wolf
-c_year: 2006
-type: 시(詩) 퍼포먼스
-creator: 이철성
-performer: 이철성, 이정훈, 김미나
-r_time: 15
-objet:  시, 공간, 오브제, 페인팅, 영상, 라이브연주
-img:  wolf
-video:  R05ZFu6cld0
+img: wolf
+video: R05ZFu6cld0
 featured_image: w2.jpg
+meta: |
+  - 창작연도: 2006
+  - 형식구분: 시(詩) 퍼포먼스
+  - 창작자: 이철성
+  - 공연자: 이철성, 이정훈, 김미나
+  - 소요시간 : 15 분
+  - 주재료 : 시, 공간, 오브제, 페인팅, 영상, 라이브연주
 ---
 
-![tt](http://visualtheater.kr/img/work/wolf/wolf-header.jpg)
+![tt](/assets/images/work/wolf/wolf-header.jpg)
 
 - 2010 [시 퍼포먼스 ‘늑대의 옷’]  _ 속초문화원 초청공연
 - 2009 [시 퍼포먼스 ‘늑대의 옷’] _ 안양 석수시장 / 과천 별양동 쉼터 공연 경기문화재단 무대공연제작지원사업- 다원예술분야 선정
@@ -31,7 +32,7 @@ featured_image: w2.jpg
 ‘눈으로 즐기고 온 몸으로 맛보는 다섯 편의 詩(visual poem)!’
 ‘새로운 공연미학의 제시! - 시+시각예술(설치, 페인팅)+공연예술(몸, 오브제, 라이브음악)’ 
 
-![tt](http://visualtheater.kr/img/work/wolf/wolf-body.jpg)
+![tt](/assets/images/work/wolf/wolf-body.jpg)
 
 어떻게 하면 모두가 함께 시의 깊은 울림과 풍요로운 감각을 새로운 방식으로, 온 몸으로 맛볼 수 있을까. 시 퍼포먼스 '늑대의 옷’은 낭송되는 시의 차원을 너머서 모두가 뜨겁게 온 몸으로 체험하는 시이다. 이를 위해 예술재료로서의 신체와 육성, 일상의 공간과 사물, 라이브음악이 시와 만나 시 퍼포먼스를 만들어냈다. 시인이며 창작자인 이철성의 시집 ‘비파 소년이 사라진 거리’(문학과지성사)의 시들이 퍼포먼스를 통해 일상의 공간을 예술적 공간으로 탈바꿈시킨다.
 

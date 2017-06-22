@@ -3,15 +3,16 @@ wid: 6
 title: 어머니의 장례식
 description: 손전등과 거대한 스크린이 그려내는 조각그림자극, 그림자가 된 사내의 잊혀졌던 사랑 이야기
 e_title:  Funeral of mother
-c_year: 2003
-type: 비디오 영상 연극
-creator:  이철성
-performer:  이철성
-r_time: 45
-objet:  비디오 영상, 몸
 img:  funeral
 video:  Wmz73zghsvk
 featured_image: f31.jpg
+meta: |
+  - 창작연도: 2003
+  - 형식구분: 비디오 영상 연극
+  - 창작자: 이철성
+  - 공연자: 이철성
+  - 소요시간 : 45 분
+  - 주재료 : 비디오 영상, 몸
 ---
 
 ### 슬픔과 아이러니의 만남!

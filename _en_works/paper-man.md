@@ -2,22 +2,22 @@
 wid: 13
 title: Paper Human
 description: A healing installation performance that is co-created by the audience.
-c_year: 2011
-type: Installation Performance
-creator: Lee Cheolsung
-performer: Lee Cheolsung and audience
-music: Lee Junghoon
-installation: Kim Hyewon, Ha Sojung
-assistant_director: Han Yoonmi
-r_time: 90
-objet: 
 img: paper
 video:
   - R32bNfgNsy4
   - wvtGGOfbLf4
 featured_image: 12.jpg
+meta: |
+  - Creation year: 2011
+  - Type: Installation Performance
+  - Creator: Lee Cheolsung
+  - Performer: Lee Cheolsung and audience
+  - Music: Lee Junghoon
+  - Installation: Kim Hyewon, Ha Sojung
+  - Assistant director: Han Yoonmi
+  - Running time : 90"
 ---
- 
+
 ### About the Work
 
 - A healing installation performance that is co-created by the audience.
@@ -25,9 +25,9 @@ featured_image: 12.jpg
 - An installation performance of paper objects that touches the soul!
 - A performance co-created by the audience, who become the performers themselves.
 {: .list-unstyled }
- 
+
 ### A Heartwarming Hour for You, Who is As Fragile As Paper!
- 
+
 Paper Human is a healing performance. Through the audience's physical form, he gives birth to and destroys the new "paper human," to make the moment memorable and remind people of the value of this cycle in their own lives.
 Paper Human demonstrates the fragility and vulnerability of human nature through the flimsy material of paper. The paper figures, which were created either in part or whole by modeling them after the audience members’ bodies, come to life during the performance, drawing their original forms to the stage and including them in the act. They reveal the frailty of human desire and despair, and the figures themselves meet their end through the natural elements of wind, water and fire. This new form of performance, which blurs the lines between the divisions in art, allows the audience to participate and thus become emotionally involved in the show.
 

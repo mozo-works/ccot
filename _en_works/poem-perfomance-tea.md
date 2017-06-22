@@ -2,15 +2,15 @@
 wid: 10
 title: 시 퍼포먼스 차향기
 description: 시와 이야기 그리고 눈으로 마시는 차 한 모금
-e_title:  poem performance Tea
-c_year: 2007
-type: 시 퍼포먼스
-creator:  공동창작
-performer:  이철성, 유영봉, 오준영, 민경현, 신수
-r_time: 60
-objet:  빛, 소리, 보이스 등
-img:  tea
+img: tea
 featured_image: t32.JPG
+meta: |
+  Creation year: 2007
+  Type: 시 퍼포먼스
+  Creator: 공동창작
+  Performer: 이철성, 유영봉, 오준영, 민경현, 신수
+  Running time : 60"
+  Materials : 빛, 소리, 보이스 등
 ---
 
 ### 시(詩) 퍼포먼스 (Visual Poems) = 시(문학) + 시각예술 + 공연예술

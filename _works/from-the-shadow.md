@@ -3,15 +3,16 @@ wid: 1
 title: 그림자로부터
 description: 손전등과 거대한 스크린이 그려내는 조각그림자극, 그림자가 된 사내의 잊혀졌던 사랑 이야기
 e_title: From the shadow
-c_year: 2001
-type: 조각 그림자극
-creator: 이철성
-performer: 이철성, 김진영
-r_time: 20
-objet: 천, 조각인형, 그림자
 img: shadow
 video: vRzR3kvHQB4
 featured_image: s31.jpg
+meta: |
+  - 창작연도: 2001
+  - 형식구분: 조각 그림자극
+  - 창작자: 이철성
+  - 공연자: 이철성, 김진영
+  - 소요시간 : 20 분
+  - 주재료 : 천, 조각인형, 그림자
 ---
 
 ## 그림자들의 환생

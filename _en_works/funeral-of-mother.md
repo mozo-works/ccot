@@ -2,16 +2,17 @@
 wid: 6
 title: Funeral of mother
 description: Deep sadness and Irony! Video reflex theater, Mis en scene of Animation
-c_year: 2003
-type: Video reflex theater
-creator: Lee Cheol-Sung
-performer: Lee Cheol-Sung
-r_time: 45
-objet: Video images, body
 img: funeral
 video: Wmz73zghsvk
 featured_image: f31.jpg
 doc: shadow.pdf
+meta: |
+  - Creation year: 2003
+  - Type: Video reflex theater
+  - Creator: Lee Cheol-Sung
+  - Performer: Lee Cheol-Sung
+  - Running time : 45"
+  - Materials : Video images, body
 ---
 
 ### Deep sadness and Irony!

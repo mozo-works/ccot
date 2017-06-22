@@ -2,19 +2,20 @@
 wid: 1
 title: From the shadow
 description: Reincarnation of Shadows! A Sculpture-shadow theater with flashlights and large screen
-c_year: 2001
-type: Sculpture-shadow theater
-creator: Lee Cheol-Sung
-performer: Lee Cheol-Sung, Kim Jin-Young
-r_time: 20
-objet: cloth, sculpture puppet, shadow
 img: shadow
 video: vRzR3kvHQB4
 featured_image: s31.jpg
 doc: shadow.pdf
+meta: |
+  - Creation year: 2001
+  - Type: Sculpture-shadow theater
+  - Creator: Lee Cheol-Sung
+  - Performer: Lee Cheol-Sung, Kim Jin-Young
+  - Running time : 20"
+  - Materials : cloth, sculpture puppet, shadow
 ---
 
-### Reincarnation of Shadows!    
+### Reincarnation of Shadows!
 
 ### A Sculpture-shadow theater with flashlights and large screen
 
@@ -24,7 +25,7 @@ Through shadow images created by pieces of materials, flashlights and big screen
 
 &nbsp;
 
-### 'A Flower on the dead tree'    
+### 'A Flower on the dead tree'
 
 ### A lost love story of a man who becomes a shadow!
 

@@ -3,18 +3,18 @@ wid: 14
 title: The Wall
 description: A Painting Performance of the Fantasy and Disillusionment of a Drunken Man!
 e_title: wall
-c_year: 2013
-type: Painting performance, Street performance
-creator: Lee Cheolsung
-performer: Lee Cheolsung
-music: Lee Junghoon
-installation: Kim Hyewon
-assistant_director: Han Yoonmi 
-r_time: 30
-objet: 
 img: wall
 video: rI76bNKKi2E
 featured_image: w3.JPG
+meta: |
+  - Creation year: 2013
+  - Type: Painting performance, Street performance
+  - Creator: Lee Cheolsung
+  - Performer: Lee Cheolsung
+  - Music: Lee Junghoon
+  - Installation: Kim Hyewon
+  - Assistant director: Han Yoonmi
+  - Running time : 30"
 ---
 
 - 2016 officially invited at 'Goyang Lake Arts Festival', Goyang

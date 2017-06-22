@@ -2,16 +2,17 @@
 wid: 12
 title: Painting Performance “The Self-portrait”
 description: “Painting Journey for Looking for Oneself” - Painting, Poem, Video, Live music, Performance
-c_year: 2007
-type: Painting Performance
-creator: Lee Cheol-Sung
-performer: Lee Cheol-Sung, Lee Jung-Hoon, Park Jong-Geun
-r_time: 40
-objet: painting, image
 img: self
 video: IRCTZqSoxhk
 doc: self-portrait.pdf
 featured_image: s34.jpg
+meta: |
+  - Creation year: 2007
+  - Type: Painting Performance
+  - Creator: Lee Cheol-Sung
+  - Performer: Lee Cheol-Sung, Lee Jung-Hoon, Park Jong-Geun
+  - Running time : 40"
+  - Materials : painting, image
 ---
 
 - 2010 Hi Seoul Fesitval (Official Invitation) - Korea

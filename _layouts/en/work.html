@@ -32,17 +32,9 @@ layout: en/default
   <div class="col-lg-3 col-lg-offset-1 about-sidebar">
     <div class="sidebar-module">
       <ol id="work-meta" class="list-unstyled">
-        {% if page.c_year %}<li>Creation year: {{ page.c_year }}</li>{% endif %}
-        {% if page.type %}<li>Type: {{ page.type }}</li>{% endif %}
-        {% if page.creator %}<li>Creator: {{ page.creator }}</li>{% endif %}
-        {% if page.performer %}<li>Performer: {{ page.performer }}</li>{% endif %}
-        {% if page.music %}<li>Music: {{ page.music }}</li>{% endif %}
-        {% if page.installation %}<li>Installation: {{ page.installation }}</li>{% endif %}
-        {% if page.assistant_director %}<li>Assistant director: {{ page.assistant_director }}</li>{% endif %}
-        {% if page.r_time %}<li>Running time : {{ page.r_time }}"</li>{% endif %}
-        {% if page.objet %}<li>Materials : {{ page.objet }}</li>{% endif %}
-        {% if page.doc %}<li class="m-t-2"><p><a href="/assets/files/en/{{ page.doc }}" class="btn btn-info"><i class="fa fa-download" aria-hidden="true"></i> Document</a></p></li>{% endif %}
+        {{ page.meta | escape | markdownify }}
       </ol>
+      {% if page.doc %}<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ page.doc }}" class="btn btn-info"><i class="fa fa-download" aria-hidden="true"></i> Document</a></p>{% endif %}
     </div>
   </div>
 </div>

@@ -2,16 +2,17 @@
 wid: 9
 title: The Diaper Man
 description: A Farce on the Diaper-Objet. A Sensible Nonsensical Comedy of a newly turned father!
-c_year: 2006
-type: A Farce on the Diaper-Objet
-creator: Lee Cheol-Sung
-performer: Lee Cheol-Sung 
-r_time: 35
-objet: body
 img: diaper
-video: 
+video:
 featured_image: d2.jpg
 doc: diaper.pdf
+meta: |
+  - Creation year: 2006
+  - Type: A Farce on the Diaper-Objet
+  - Creator: Lee Cheol-Sung
+  - Performer: Lee Cheol-Sung
+  - Running time : 35"
+  - Materials : body
 ---
 
 ### "A Farce on the Diaper-Objet"

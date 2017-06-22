@@ -2,20 +2,20 @@
 wid: 13
 title: 종이인간
 description: 소멸하여 더욱 아름다워지는 예술테라피 공연! 영혼을 어루만지는 종이오브제 설치 퍼포먼스! 관객이 출연자가 되어 함께 만들어가는 공연!
-c_year: 2011
-type: 관객과 함께 만드는 힐링 설치 퍼포먼스
-creator: 이철성
-performer: 이철성, 관객들
-music: 이정훈
-installation: 김혜원, 하소정
-assistant_director: 한윤미
-r_time: 90
-objet: 
 img: paper
 video:
   - R32bNfgNsy4
   - wvtGGOfbLf4
 featured_image: 12.jpg
+meta: |
+  - 창작연도: 2011
+  - 형식구분: 관객과 함께 만드는 힐링 설치 퍼포먼스
+  - 창작자: 이철성
+  - 공연자: 이철성, 관객들
+  - 음악: 이정훈
+  - 설치: 김혜원, 하소정
+  - 조연출: 한윤미
+  - 소요시간 : 90 분
 ---
 
 

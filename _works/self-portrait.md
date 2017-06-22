@@ -2,20 +2,21 @@
 wid:  12
 title:  페인팅퍼포먼스 '자화상!'
 description: 회화, 영상, 설치, 라이브 음악, 그리고 퍼포먼스가 하나로 통합된 비주얼 씨어터!
-e_title:  
-c_year: 2007
-type: 페인팅 퍼포먼스
-creator:  이철성
-performer:  이철성, 이정훈, 박종근
-r_time: 40
-objet:  페인팅, 영상
-img:  self
-video:  IRCTZqSoxhk
+e_title: Painting perfomance, Self portrait
+img: self
+video: IRCTZqSoxhk
 doc: /assets/files/selfportrait.doc
 featured_image: s34.jpg
+meta: |
+  - 창작연도: 2007
+  - 형식구분: 페인팅 퍼포먼스
+  - 창작자: 이철성
+  - 공연자: 이철성, 이정훈, 박종근
+  - 소요시간 : 40 분
+  - 주재료 : 페인팅, 영상
 ---
 
-## 회화, 영상, 설치, 라이브 음악,    
+## 회화, 영상, 설치, 라이브 음악,
 
 ## 그리고 퍼포먼스가 하나로 통합된 비주얼 씨어터!
 

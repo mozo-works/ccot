@@ -7,7 +7,7 @@ video:
   - Yxd-SmKKcNY
   - Xa57w42rQx4
   - AjhQUDPHTmY
-featured_image: IMG_8653.jpg
+featured_image: IMG_0003.jpg
 meta: |
   - 창작연도 : 2016
   - 형식구분 : 시민과 함께 만드는 공동체 퍼포먼스

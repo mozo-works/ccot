@@ -7,7 +7,7 @@ video:
   - Yxd-SmKKcNY
   - Xa57w42rQx4
   - AjhQUDPHTmY
-featured_image: IMG_8653.jpg
+featured_image: IMG_0003.jpg
 meta: |
   - Creation year: 2016
   - Type: Community performance

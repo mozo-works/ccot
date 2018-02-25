@@ -42,7 +42,7 @@ kramdown:
   entity_output: :as_input
   hard_wrap: true
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-github-metadata

@@ -113,6 +113,22 @@
     margin-bottom: 30px;
     overflow: hidden;
   }
+  
+  .edit-link {
+    i {
+      visibility: hidden;
+    }
+    a {
+      display: inline-block;
+      width: 55px;
+      height: 55px;
+      &:hover {
+        i {
+          visibility: visible;  
+        }
+      }
+    }
+  }
 }
 
 .container.about,

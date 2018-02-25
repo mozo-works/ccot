@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% assign repository = site.github.public_repositories | where: "full_name", site.repository %}
+{% assign repo = repository[0] %}
+{% capture edit_prose_url %}http://prose.io/#{{ repo.full_name }}/edit/{{ repo.default_branch }}{% endcapture %}
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -28,6 +32,9 @@ layout: default
       <a class="btn btn-success btn-lg" href="{{ site.data.front.en.banner.ticket }}" role="button">예매하기</a>
     </p>
     {% endif %}
+    <ul class="list-inline pull-right edit-link">
+      <li><a href="{{ edit_prose_url }}/_data/front.yml"><i class="fa fa-pencil-square-o fa-3x"></i></a></li>
+    </ul>
   </div>
 </div>
 

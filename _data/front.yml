@@ -5,20 +5,30 @@ introduction: |
   비주얼씨어터 꽃은 2000년 이스라엘에서 창단되어 2004년부터 국내에서 활동해온 Visual theater company입니다.
   시각예술과 공연예술을 혼합한 새로운 형식과 내밀한 예술적 세련미! 공연사업과 교육프로그램을 운영합니다.
 
-banner:
-  title: 공연 ‘마사지사’
-  when:
-  where:
-  description: |
-    2018 스페인 바르셀로나 Grec Festival 공식초청
-    2018 폴란드 크라쿠프 ULICA-International Street Theatre Festival 공식초청
-    2018 폴란드 그단스크 FETA Festival 공식초청
-    2018 광주프린지인터내셔널 공식초청
-    2018 수원연극축제 공식초청
-  bg-image: 20170622/spain.jpg
-  link: http://visualtheater.kr/work/masseur/
-  long-image:
-  ticket:
+slides:
+  - title: 공연 ‘돌 구르다’
+    when: 2019/04/27(토)-28(일) 16:00
+    where: 다시세운광장
+    description:
+    bg-image: 20190415/stone-rolls.jpg
+    link: /long
+    long-image: 20190415/stone-rolls-long.jpg
+    ticket: https://forms.gle/rVXXd298s7RJJztbA
+    ticket_text: 사전 예약 (관람료 무료)
+  - title: 공연 ‘마사지사’
+    when:
+    where:
+    description: |
+      2018 스페인 바르셀로나 Grec Festival 공식초청
+      2018 폴란드 크라쿠프 ULICA-International Street Theatre Festival 공식초청
+      2018 폴란드 그단스크 FETA Festival 공식초청
+      2018 광주프린지인터내셔널 공식초청
+      2018 수원연극축제 공식초청
+    bg-image: 20170622/spain.jpg
+    link: http://visualtheater.kr/work/masseur/
+    long-image:
+    ticket:
+    ticket_text:
 
 en:
   introduction: |

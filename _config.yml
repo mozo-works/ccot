@@ -1,9 +1,11 @@
 # Meta
 name: 비주얼씨어터 꽃
+title: 비주얼씨어터 꽃
 description: ‘비주얼씨어터 꽃’은 시각예술과 공연예술이 통합된 시각연극 Visual Theater를 추구하는 공연예술단체입니다.
 url: http://visualtheater.kr
 baseurl: ''
 repository: 'mozo-works/ccot'
+github: [metadata]
 
 en:
   name: CCOT

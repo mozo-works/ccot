@@ -69,20 +69,28 @@
 
 .front {
   #front-banner {
-    padding: 80px 32px;
     margin-bottom: 0;
-    background-image: url('/assets/images/banners/{{ site.data.front.banner.bg-image }}');
     .bg-warning {
       display: inline-block;
       padding: 5px;
     }
+    .container {
+      padding-right: 10%;
+    }
+    .carousel-inner {
+      .item {
+        width: 100%;
+        height: 520px;
+        text-align: right;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center !important;
+        padding-top: 5rem;
+      }
+    }
   }
-
-  {% if site.data.front.en.banner %}
-  #front-banner.en {
-    background-image: url('/assets/images/banners/{{ site.data.front.en.banner.bg-image }}');
-  }
-  {% endif %}
 
   #front-about,
   #front-works {

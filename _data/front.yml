@@ -7,23 +7,20 @@ introduction: |
 
 slides:
   - title: 공연 ‘돌 구르다’
-    when: 2019/04/27(토)-28(일) 16:00
-    where: 다시세운광장
+    when: 2019년 10월 5~6일(토,일) 17시
+    where: 서울시청 서소문별관 후문
     description:
     bg-image: 20190415/stone-rolls.jpg
-    link: /long
+    link: /work/stone-rolls
     long-image: 20190415/stone-rolls-long.jpg
-    ticket: https://forms.gle/rVXXd298s7RJJztbA
-    ticket_text: 사전 예약 (관람료 무료)
   - title: 공연 ‘마사지사’
     when:
     where:
     description: |
+      2019 프랑스 샬롱 거리예술축제(Chalon dans la Rue) 공식초청
       2018 스페인 바르셀로나 Grec Festival 공식초청
       2018 폴란드 크라쿠프 ULICA-International Street Theatre Festival 공식초청
       2018 폴란드 그단스크 FETA Festival 공식초청
-      2018 광주프린지인터내셔널 공식초청
-      2018 수원연극축제 공식초청
     bg-image: 20170622/spain.jpg
     link: http://visualtheater.kr/work/masseur/
     long-image:
@@ -38,7 +35,7 @@ en:
     title: 'Massager'
     when:
     where:
-    description: |      
+    description: |
       2018 Grec Festival, Barcelona, Spain
       2018 Ulica International Street Theatre Festival, Krakow, Poland
       2018 FETA Festival for St reet Theatres, Gdansk, Poland

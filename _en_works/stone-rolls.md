@@ -1,36 +1,41 @@
 ---
 wid: 16
-title: 돌, 구르다
-description:  
-img: stone-rolls
+title: Rock, Rolling
+description: 'A man collapses on a flowery path. The story of all of us, falling from the peak of life, at the most beautiful moment'
+img: stone
 video:
-featured_image: 
+  - kSVagYYc4BM
+  - 8v3mvnWKzCY
+featured_image: DSC0474.jpg
 meta: |
-  - 창작연도 : 2016
-  - 형식구분 : 거리극 (일부 관객참여)
-  - 창작, 연출 : 이철성
-  - 공연자 : 이철성, 서상현, 김준봉, 박상현
-  - 미술, 조연출 : 하소정
-  - 음악 : 이정훈
-  - 공연시간 : 50분
+  - Created & Directed by Cheolsung Lee
+  - Performed by Cheolsung Lee and etc.
+  - Visual Arts & Assistant Director by Sohjeong Ha
+  - Music by Jeonghoon Lee
+  - Street Theater
+  - a part of Audience participated
+  - 50 min
+  - Produced by CCOT
 
 ---
 
-## 작품소개
+## About the Work
 
 &nbsp;
 
- 길거리에서 생활하는 #노숙자 사내. 그의 환영을 통해 드러나는 가정에 대한 그리움, 어린 시절에 대한 향수, 타인에 대한 절절한 목마름, 감춰진 로맨스와 열망들까지. 그러나 우리는 한 인간의 서정과 자유가 사회와 공권력의 비인간적 폭력 앞에서 쓰러지는 모습을 지켜보게 된다.  
+A man collapses on a flowery path.
+The story of all of us, falling from the peak of life, at the most beautiful moment
 
- 이 작품은 개인과 사회 사이의 불편하고 유의미한 경계선에 서있는 노숙자라는 캐릭터를 통해, 사회를 고발하려 한다. 동시에 인간의 부조리한 실존을 고백하려 한다. 끊임없이 긴 비탈길을 오르며 자신의 꿈과 환영을 펼치는 그는, 매번 비탈길을 굴러 떨어지지만 또다시 일어나서 비탈을 오른다. #시지푸스의 신화가 지금, 여기, 한국의 도심 한가운데서 이 시대 우리들의 초상과 겹쳐진다. 
+A homeless man living on the streets is under an illusion, through which his longing for his family, nostalgia for his childhood, desperate thirst for people, and hidden romance and aspirations are revealed. However, we witness the man’s sentiments and freedom crushed by the inhumane violence of the society and the public power.
 
- 몸이 거리공간과 사물들(돌, 꽃, 경찰의 철벽, 최루탄)과 뒹굴며 한바탕 추는 환상과 환멸의 춤! 
+Climbing up the endless slope to present his dreams and fantasies, the man tumbles down every time, yet he gets up every time to climb the slope again. Today, here, at the center of a city, the Myth of Sisyphus is overlapped with ourselves living the present time.
+
+With the bodies rolling around in the streets with objects like rocks, flowers, the police’s iron walls, and tear bombs, a round of dancing of fantasy and disillusion will be presented before your eyes.
 
 &nbsp;
 
-### 대표공연경력
+### Major Performances
 
-- 2019 서울거리예술축제 공식초청
-- 2019 수원연극축제 공식초청
-- 2019 다시세운광장 공연 (서울거리예술창작센터 2019 거리예술 창작지원사업 선정)
-
+- 2019 Dasi-Sewoon Square (Selected and supported by Seoul Street Arts Creation Center)
+- 2019 Soowon Theatre Festival, Soowon, Korea
+- 2019 Seoul Street Arts Festival, Seoul, Korea

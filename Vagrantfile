@@ -14,7 +14,11 @@ Vagrant.configure("2") do |config|
     apt-get update && apt-get -y -qq upgrade
   SHELL
   config.vm.provision "shell", privileged: false, inline: <<-SHELL
-    rbenv install 2.7.1 && rbenv global 2.7.1 && rbenv uninstall 2.5.8 -y
+    rbenv install 2.7.1 && rbenv global 2.7.1 && rbenv uninstall -f 2.5.8
     cd /vagrant/ && gem install bundler && rm Gemfile.lock && bundle update
+    curl https://rclone.org/install.sh | sudo bash
+    mkdir -p /vagrant/_drive
+    # rclone config
+    # rclone mount visualtheater:/ /vagrant/_drive --daemon
   SHELL
 end

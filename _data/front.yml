@@ -6,9 +6,21 @@ introduction: |
   시각예술과 공연예술을 혼합한 새로운 형식과 내밀한 예술적 세련미! 공연사업과 교육프로그램을 운영합니다.
 
 slides:
+  - title: 공연 ‘셀프 마사지사’
+    when:
+    where:
+    description: |
+      인디아트홀 공 2020.08.29(토) ~ 30(일) 17시
+      과천축제 2020.09.26(토)~27(일)
+      서울거리예술축제 2020.10.01(목)~02(금)
+    bg-image: 20200823/self-masseur.jpg
+    link: /work/self-masseur/
+    long-image: 20200823/self-masseur-long.jpg
+    ticket: http://naver.me/5MPYqexK
+    ticket_text: 예약하기
   - title: 공연 ‘돌 구르다’
-    when: 2019년 10월 5~6일(토,일) 17시
-    where: 서울시립미술관 후문 (서울거리예술축제 공식초청 공연)
+    when: 2020년 9월 24일(금)
+    where: 고양호수예술축제 (공식초청공연)
     description:
     bg-image: 20190415/stone-rolls.jpg
     link: /work/stone-rolls
@@ -22,7 +34,7 @@ slides:
       2018 폴란드 크라쿠프 ULICA-International Street Theatre Festival 공식초청
       2018 폴란드 그단스크 FETA Festival 공식초청
     bg-image: 20170622/spain.jpg
-    link: http://visualtheater.kr/work/masseur/
+    link: /work/masseur/
     long-image:
     ticket:
     ticket_text:
@@ -42,6 +54,6 @@ en:
       2018 ACC Gwangju Fringe International Street Arts Festival, Gwangju, Korea
       2018 Suwon Theatre Festival, Suwon, Korea
     bg-image: 20170622/spain.jpg
-    link: http://visualtheater.kr/en/work/masseur/
+    link: /en/work/masseur/
     long-image:
     ticket:

@@ -26,7 +26,7 @@ layout: default
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     {% for slide in site.data.front.slides %}
-    <div class="item {% if forloop.first == true %} active{% endif %}"{% if slide.link %} onclick="location.href='{{ slide.link }}'"{% endif %} style="background: url('/assets/images/banners/{{ slide.bg-image }}') no-repeat; background-size: cover;">
+    <div data-seq="{{ forloop.index0 }}" class="item {% if forloop.first == true %} active{% endif %}" style="background: url('/assets/images/banners/{{ slide.bg-image }}') no-repeat; background-size: cover;">
       <div class="container">
         {% if slide.title %}
         <h1 class="display-4"><span class="bg-warning text-warning">{{ slide.title }}</span></h1>
@@ -42,6 +42,11 @@ layout: default
         <p>&nbsp;</p>
         <p class="lead">
           <a class="btn btn-success btn-lg" target="_blank" href="{{ slide.ticket }}" role="button">{{ slide.ticket_text }}</a>
+        </p>
+        {% endif %}
+        {% if slide.long-image %}
+        <p class="lead">
+          <a class="btn btn-success btn-lg" target="_blank" href="/assets/images/banners/{{ slide.long-image }}" role="button">공연 정보</a>
         </p>
         {% endif %}
       </div>

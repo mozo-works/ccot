@@ -15,6 +15,10 @@ meta: |
     * Performers: Sunha Moon, Soyool Moon, Beomsoo Park, Jihyeong Lee, Sohjeong Ha, Cheolsung Lee
 ---
 
+2021 Seoul Street Arts Festival 'Official Program!' 
+
+---
+
 (The local participants, who made a reservaton for this project, walk around each corners of the City and leave their traces and marks behind them doing artistic activities such as writing poems, installation and performance.)
 
 ```

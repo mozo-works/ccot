@@ -3,7 +3,7 @@ wid: 19
 title: 숲을 거니는 싯구들
 description: 유람형 관객참여 퍼포먼스
 img: poem-walking-forest
-video: j3pqmKoN1l0
+video: 
 featured_image: geurimjido-coejongbon.jpg
 meta: |
   - 창작연도: 2022

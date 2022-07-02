@@ -6,7 +6,7 @@ e_title: Painting perfomance, Self portrait
 img: self-portrait
 video: IRCTZqSoxhk
 doc: /assets/files/selfportrait.doc
-featured_image: s34.jpg
+featured_image: s31.jpg
 meta: |
   - 창작연도: 2007
   - 형식구분: 페인팅 퍼포먼스

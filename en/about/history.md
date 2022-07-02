@@ -6,13 +6,44 @@ layout: en/about
 
 &nbsp;
 
+### Tour-type audience participation performance ‘The Lines of Poem walking through the Woods’
+
+- 2022 Officially Produced at ‘Soowon Theatre Festival’, Soowon, Korea 
+
+### City tour-type audience participation performance ‘The Lines of Poem walking through the City’ 
+
+- 2021 Officially Produced at ‘Seoul Street Arts Festival’, Seoul, Korea 
+
 ### Installation Performance, Massager
 
+- 2019, Chalon dans la rue, Chalon sur Saone, France
+- 2019, Street Arts Festivals at Gwacheon, Pohang, Uijeongbu, Ulsan, Mokpo, Pohang in Korea
+- 2018, Street Arts Market in Seoul, Seoul, Korea
+- 2018, ACC Gwangju Fringe International - Street Arts Festival, Gwangju, Korea
+- 2018, Grec Festival, Barcelona, Spain
+- 2018, FETA Festival for Street Theatres, Gdansk, Poland
+- 2018, Ulica International Street Theatre Festival, Krakow, Poland
+- 2018, Suwon Theatre Festival, Suwon, Korea
+- 2017, Performing Arts Market in Seoul(PAMS), Seoul, Korea - PAMS CHOICE 2017
+- 2017, Seoul Street Arts Festival, Seoul, Korea
+- 2017, International Street Theatres Festival 'Elagin Park', Saint-Petersburg, Russia  
+- 2017, Stockton International Riverside Festival(SIRF), Stockton, UK
+- 2017, Greenwich+Docklands International Festival(GDIF), London, UK
+- 2017, Ansan International Street Theatre Festival, Ansan, Korea
 - 2016 Performed at Marronnier Park (Korea) (Supported by 'Seoul Street Arts Creation Center')
 - 2016 Performed at Europa Plaza in Tarrega (Spain) (Coproduced with 'Fira Tarrega') 
 
+### Street Theatre ‘Rock, Rolling’
+
+- 2022 Ansan International Street Theatre Festival, Ansan, Korea I
+- 2019 Seoul Street Arts Festival, Seoul, Korea
+- 2019 Soowon Theatre Festival, Soowon, Korea
+- 2019 Dasi-Sewoon Square (Selected and supported by Seoul Street Arts Creation Center)
+
 ### Painting Performance, The Wall!
 
+- 2017 officially invited at 'Soowon Theatre Festival', Soowon
+- 2016 officially invited at 'Goyang Lake Arts Festival', Goyang
 - 2015 Officially invited guest of the Hi Seoul Festival
 - 2015 Official Invited performance for the Ansan Street Art Festival
 - 2015 Co-produced performance with Seoul Street Arts Creation Center 

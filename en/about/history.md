@@ -14,7 +14,7 @@ layout: en/about
 
 - 2021 Officially Produced at ‘Seoul Street Arts Festival’, Seoul, Korea 
 
-### Installation Performance, Massager
+### Installation Performance 'Massager'
 
 - 2019, Chalon dans la rue, Chalon sur Saone, France
 - 2019, Street Arts Festivals at Gwacheon, Pohang, Uijeongbu, Ulsan, Mokpo, Pohang in Korea
@@ -40,7 +40,7 @@ layout: en/about
 - 2019 Soowon Theatre Festival, Soowon, Korea
 - 2019 Dasi-Sewoon Square (Selected and supported by Seoul Street Arts Creation Center)
 
-### Painting Performance, The Wall!
+### Painting Performance 'The Wall!'
 
 - 2017 officially invited at 'Soowon Theatre Festival', Soowon
 - 2016 officially invited at 'Goyang Lake Arts Festival', Goyang
@@ -49,7 +49,7 @@ layout: en/about
 - 2015 Co-produced performance with Seoul Street Arts Creation Center 
 - 2013 Selected performance at the Open Studio for the Guei Intake Station, Seoul
 
-### Installation Performance, Paper Human
+### Installation Performance 'Paper Human'
 
 - 2016 Officially invited performance at Chooncheon Mime Festival
 - 2015 Performance at the Korea Performing Arts Center / Selected performance for Interdisciplinary Art by the Seoul Foundation for Arts and Culture
@@ -62,11 +62,11 @@ layout: en/about
 - 2011 Arts Council Korea's selection for Experimental Art and Diversity Promotion (performed at Seoul Art Space_Seogyo)
 - 2011 Officially invited performance at the 6th Physical Theater Festival
 
-### Painting Performance, Self-Portrait
+### Painting Performance 'Self-Portrait'
 
 - 2011 Officially invited performance at the FiraTàrrega (Spain)
 
-### Poetry Performance, Clothes of a Wolf
+### Poetry Performance 'Clothes of a Wolf'
 
 - 2013 Invited Performance, Sindang Creative Arcade (performed at Seoul Jungang Traditional Market)
 

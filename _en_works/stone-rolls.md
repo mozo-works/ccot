@@ -36,6 +36,7 @@ With the bodies rolling around in the streets with objects like rocks, flowers, 
 
 ### Major Performances
 
+- 2022 Ansan International Street Theatre Festival, Ansan, Korea
 - 2019 Dasi-Sewoon Square (Selected and supported by Seoul Street Arts Creation Center)
 - 2019 Soowon Theatre Festival, Soowon, Korea
 - 2019 Seoul Street Arts Festival, Seoul, Korea

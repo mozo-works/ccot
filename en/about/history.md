@@ -8,10 +8,12 @@ layout: en/about
 
 ### Tour-type audience participation performance ‘The Lines of Poem walking through the Woods’
 
-- 2022 Officially Produced at ‘Soowon Theatre Festival’, Soowon, Korea 
+- 2022 Officially Produced at ‘Soowon Theatre Festival’, Soowon, Korea
+- 2022 Officially Produced at ‘Pohang Street Arts Festival’, Pohang, Korea  
 
 ### City tour-type audience participation performance ‘The Lines of Poem walking through the City’ 
 
+- 2022 New creation Supported by Seoul Street Arts Creation Center of Seoul Foundation for Culture and Arts
 - 2021 Officially Produced at ‘Seoul Street Arts Festival’, Seoul, Korea 
 
 ### Installation Performance 'Massager'

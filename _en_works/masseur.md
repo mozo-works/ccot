@@ -4,6 +4,7 @@ title: MASSAGER
 description: A Heartwarming Hour for You, Who is Fragile As Paper!
 img: masseur
 video:
+  - LB9d8B75Iwk
   - Yxd-SmKKcNY
   - Xa57w42rQx4
   - AjhQUDPHTmY
@@ -40,13 +41,23 @@ We are all strangers, foreigners, immigrants and even refugees to each other. Bu
 
 &nbsp;
 
-- 2016 Performed ‘with Tarrega Immigrant-performers' in Tarrega (Spain)
-- 2016 Performed ‘with Seoul Citizen-performers' in Seoul (Korea)
-- 2017 Performed ‘with Ansan Citizen-performers' in Ansan International Street Theatre Festival (Korea)
-- 2017 Performed ‘with London Citizen-performers' in Greenwich+Docklands International Festival (UK)
-- 2017 Performed ‘with Stockton Citizen-performers' in Stockton International Riverside Festival (UK)
-- 2017 Performed ‘with Saint-Petersburg Citizen-performers' in International Street Theatres Festival "Elagin Park" (Russia)
-- 2017 Performed ‘with Seoul Citizen-performers' in Seoul Street Arts Festival (Korea)
-- 2017 Selected for PAMS Choice and Performed in 'Performing Arts Market in Seoul(PAMS)' (Korea)
+- 2021, Via Festival, Seoul, Korea (On line)
+- 2021, Yimoon Goga Public Art Project, Seoul, Korea
+- 2019, Chalon dans la rue, Chalon sur Saone, France
+- 2019, Street Arts Festivals at Gwacheon, Uijeongbu, Ulsan, Mokpo, Pohang in Korea
+- 2018, Street Arts Market in Seoul, Seoul, Korea
+- 2018, ACC Gwangju Fringe International - Street Arts Festival, Gwangju, Korea
+- 2018, Grec Festival, Barcelona, Spain
+- 2018, FETA Festival for Street Theatres, Gdansk, Poland
+- 2018, Ulica International Street Theatre Festival, Krakow, Poland
+- 2018, Suwon Theatre Festival, Suwon, Korea
+- 2017, Performing Arts Market in Seoul(PAMS), Seoul, Korea - PAMS CHOICE 2017
+- 2017, Seoul Street Arts Festival, Seoul, Korea
+- 2017, International Street Theatres Festival 'Elagin Park', Saint-Petersburg, Russia  
+- 2017, Stockton International Riverside Festival(SIRF), Stockton, UK
+- 2017, Greenwich+Docklands International Festival(GDIF), London, UK
+- 2017, Ansan International Street Theatre Festival, Ansan, Korea
+- 2016 Performed at Marronnier Park (Korea) (Supported by 'Seoul Street Arts Creation Center')
+- 2016 Performed at Europa Plaza in Tarrega (Spain) (Coproduced with 'Fira Tarrega') 
 
 &nbsp;

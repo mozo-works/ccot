@@ -3,7 +3,7 @@ wid: 12
 title: Painting Performance “The Self-portrait”
 description: “Painting Journey for Looking for Oneself” - Painting, Poem, Video, Live music, Performance
 img: self-portrait
-video: IRCTZqSoxhk
+video: z7tHEkNrXlE
 doc: self-portrait.pdf
 featured_image: s34.jpg
 meta: |

@@ -4,9 +4,10 @@ title:  페인팅퍼포먼스 '자화상!'
 description: 회화, 영상, 설치, 라이브 음악, 그리고 퍼포먼스가 하나로 통합된 비주얼 씨어터!
 e_title: Painting perfomance, Self portrait
 img: self-portrait
-video: IRCTZqSoxhk
+video:
+  - z7tHEkNrXlE
 doc: /assets/files/selfportrait.doc
-featured_image: s34.jpg
+featured_image: s31.jpg
 meta: |
   - 창작연도: 2007
   - 형식구분: 페인팅 퍼포먼스

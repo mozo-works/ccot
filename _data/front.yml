@@ -59,7 +59,24 @@ en:
   introduction: |
     CCOT'(is a 'flower' in Korean) is the troupe of performers, painters and musicians.
     'CCOT' has worked on alternative spaces and outdoor, exploring the depths of life through integrating the mediums of poetry, painting, installation art, and video art.
-  banner:
-    title: The Works of CCOT
+  slides:
+  - title: A Strange Massage Skill for You
+    when:
+    where:
+    description: |
+      West Seoul Arts Center for Learning
+      2023.09.09(SAT)~10(SUN) 17:00
+    bg-image: 20230825/banner.jpg
+    link: /en/work/strange-massage-skill/
+    long-image: 20230825/long.jpg
+    ticket: https://naver.me/x9cl1g2O
+    ticket_text: Reservation
+  - title: The Works of CCOT
+    when:
+    where:
+    description:
     bg-image: 2021/0QMDFGLBizk.jpg
     link: https://www.youtube.com/watch?v=0QMDFGLBizk
+    long-image: 
+    ticket:
+    ticket_text:

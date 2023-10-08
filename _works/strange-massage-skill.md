@@ -3,7 +3,7 @@ wid: 19
 title: 너를 위한 낯선 마사지 기술
 description: '부질없이 사라질 우리의 삶을 위한 마지막 마사지 기술! '
 img: strange
-video:
+video: Z4WAPbFHBeI
 featured_image: 0-featured1.jpg
 meta: |
   - 창작년도 : 2023

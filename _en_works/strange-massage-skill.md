@@ -3,7 +3,7 @@ wid: 19
 title: A Strange Massage Skill for You
 description: 'The last massage skill for our life that disappears in vain!'
 img: strange
-video:
+video: Z4WAPbFHBeI
 featured_image: 0-featured1.jpg
 meta: |
   - Creation year : 2023

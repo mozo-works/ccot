@@ -29,9 +29,10 @@ slides:
     ticket: http://naver.me/5MPYqexK
     ticket_text: 예약하기
   - title: 공연 ‘돌 구르다’
-    when: 2020년 9월 24일(금)
-    where: 고양호수예술축제 (공식초청공연)
-    description:
+    when: 2023년 10월12일(목)
+    where: 서울아트마켓 팸스초이스 공연. 국립극장 문화광장.
+    description: |
+      2023년 10월21~22일(토일) 16:00 / 광주프린지페스티벌 공식초청공연.
     bg-image: 20190415/stone-rolls.jpg
     link: /work/stone-rolls
     long-image: 20190415/stone-rolls-long.jpg

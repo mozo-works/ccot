@@ -6,6 +6,14 @@ introduction: |
   시각예술과 공연예술을 혼합한 새로운 형식과 내밀한 예술적 세련미! 공연사업과 교육프로그램을 운영합니다.
 
 slides:
+  - title: 공연 ‘돌 구르다’
+    when: 2023년 10월12일(목)
+    where: 서울아트마켓 팸스초이스 공연. 국립극장 문화광장.
+    description: |
+      2023년 10월21~22일(토일) 16:00 / 광주프린지페스티벌 공식초청공연.
+    bg-image: 20190415/stone-rolls.jpg
+    link: /work/stone-rolls
+    long-image: 20190415/stone-rolls-long.jpg
   - title: 공연 ‘너를 위한 낯선 마사지 기술’
     when:
     where:
@@ -28,14 +36,6 @@ slides:
     long-image: 20200823/self-masseur-long.jpg
     ticket: http://naver.me/5MPYqexK
     ticket_text: 예약하기
-  - title: 공연 ‘돌 구르다’
-    when: 2023년 10월12일(목)
-    where: 서울아트마켓 팸스초이스 공연. 국립극장 문화광장.
-    description: |
-      2023년 10월21~22일(토일) 16:00 / 광주프린지페스티벌 공식초청공연.
-    bg-image: 20190415/stone-rolls.jpg
-    link: /work/stone-rolls
-    long-image: 20190415/stone-rolls-long.jpg
   - title: 공연 ‘마사지사’
     when:
     where:

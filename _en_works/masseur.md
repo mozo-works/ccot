@@ -41,10 +41,12 @@ We are all strangers, foreigners, immigrants and even refugees to each other. Bu
 
 &nbsp;
 
-- 2021, Via Festival, Seoul, Korea (On line)
-- 2021, Yimoon Goga Public Art Project, Seoul, Korea
+- 2023, Busan International Performing Arts Festival, Korea
+- 2022, Sejong Festival, Anyang Cultural Foundation, Youngdeok Environment/Theater Festival,
+Incheon Arts and Culture Foundation, Chuncheon Mime Festival, Korea 
+- 2021, Arts in Public Spaces at E-Mun, Via Festival, Gyeonggi Cultural Foundation, One-day Art Tour in Incheon, Korea
 - 2019, Chalon dans la rue, Chalon sur Saone, France
-- 2019, Street Arts Festivals at Gwacheon, Uijeongbu, Ulsan, Mokpo, Pohang in Korea
+- 2019, 2019, Ujeongbu Music Theater Festival, Pohang Street Arts Festival, Gwacheon Festival, Ulsan Promenade Festival, Mokpo International Madang Festival, Korea
 - 2018, Street Arts Market in Seoul, Seoul, Korea
 - 2018, ACC Gwangju Fringe International - Street Arts Festival, Gwangju, Korea
 - 2018, Grec Festival, Barcelona, Spain

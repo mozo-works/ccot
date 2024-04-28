@@ -15,6 +15,7 @@ meta: |
   - Materials : painting, image
 ---
 
+- 2011 Fira Tarrega (Official Invitation) - Spain
 - 2010 Hi Seoul Fesitval (Official Invitation) - Korea
 - 2007,2008,2010 Gwacheon Hanmadang Festival (Official Invitation)-Korea
 - 2009 Festival des Arts de la rue (Official Invitation) - Morlaix, France,

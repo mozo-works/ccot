@@ -5,7 +5,7 @@ description: “Painting Journey for Looking for Oneself” - Painting, Poem, Vi
 img: self-portrait
 video: z7tHEkNrXlE
 doc: self-portrait.pdf
-featured_image: s34.jpg
+featured_image: s31.jpg
 meta: |
   - Creation year: 2007
   - Type: Painting Performance

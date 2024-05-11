@@ -6,49 +6,56 @@ introduction: |
   시각예술과 공연예술을 혼합한 새로운 형식과 내밀한 예술적 세련미! 공연사업과 교육프로그램을 운영합니다.
 
 slides:
-  - title: 공연 ‘돌 구르다’
-    when: 2023년 10월12일(목)
-    where: 서울아트마켓 팸스초이스 공연. 국립극장 문화광장.
-    description: |
-      2023년 10월21~22일(토일) 16:00 / 광주프린지페스티벌 공식초청공연.
-    bg-image: 20190415/stone-rolls.jpg
-    link: /work/stone-rolls
-    long-image: 20190415/stone-rolls-long.jpg
-  - title: 공연 ‘너를 위한 낯선 마사지 기술’
-    when:
-    where:
-    description: |
-      서서울예술교육센터 2023.09.09(토)~10(일) 17:00
-    bg-image: 20230825/banner.jpg
-    link: /work/strange-massage-skill/
-    long-image: 20230825/long.jpg
-    ticket: https://naver.me/x9cl1g2O
-    ticket_text: 예약하기
-  - title: 공연 ‘셀프 마사지사’
-    when:
-    where:
-    description: |
-      인디아트홀 공 2020.08.29(토) ~ 30(일) 17시
-      과천축제 2020.09.26(토)~27(일)
-      서울거리예술축제 2020.10.01(목)~02(금)
-    bg-image: 20200823/self-masseur.jpg
-    link: /work/self-masseur/
-    long-image: 20200823/self-masseur-long.jpg
-    ticket: http://naver.me/5MPYqexK
-    ticket_text: 예약하기
-  - title: 공연 ‘마사지사’
-    when:
-    where:
-    description: |
-      2019 프랑스 샬롱 거리예술축제(Chalon dans la Rue) 공식초청
-      2018 스페인 바르셀로나 Grec Festival 공식초청
-      2018 폴란드 크라쿠프 ULICA-International Street Theatre Festival 공식초청
-      2018 폴란드 그단스크 FETA Festival 공식초청
-    bg-image: 20170622/spain.jpg
-    link: /work/masseur/
-    long-image:
-    ticket:
-    ticket_text:
+  - title: 페인팅 퍼포먼스 '자화상'
+    when: 2024년 5월 18, 19일 (토,일) 19:30
+    where: 2024 수원연극축제 (경기상상캠퍼스)
+    description: ''
+    bg-image: 20240512/s31.jpg
+    ticket: /work/self-portrait/
+    ticket_text: 공연 정보
+  # - title: 공연 ‘돌 구르다’
+  #   when: 2023년 10월12일(목)
+  #   where: 서울아트마켓 팸스초이스 공연. 국립극장 문화광장.
+  #   description: |
+  #     2023년 10월21~22일(토일) 16:00 / 광주프린지페스티벌 공식초청공연.
+  #   bg-image: 20190415/stone-rolls.jpg
+  #   link: /work/stone-rolls
+  #   long-image: 20190415/stone-rolls-long.jpg
+  # - title: 공연 ‘너를 위한 낯선 마사지 기술’
+  #   when:
+  #   where:
+  #   description: |
+  #     서서울예술교육센터 2023.09.09(토)~10(일) 17:00
+  #   bg-image: 20230825/banner.jpg
+  #   link: /work/strange-massage-skill/
+  #   long-image: 20230825/long.jpg
+  #   ticket: https://naver.me/x9cl1g2O
+  #   ticket_text: 예약하기
+  # - title: 공연 ‘셀프 마사지사’
+  #   when:
+  #   where:
+  #   description: |
+  #     인디아트홀 공 2020.08.29(토) ~ 30(일) 17시
+  #     과천축제 2020.09.26(토)~27(일)
+  #     서울거리예술축제 2020.10.01(목)~02(금)
+  #   bg-image: 20200823/self-masseur.jpg
+  #   link: /work/self-masseur/
+  #   long-image: 20200823/self-masseur-long.jpg
+  #   ticket: http://naver.me/5MPYqexK
+  #   ticket_text: 예약하기
+  # - title: 공연 ‘마사지사’
+  #   when:
+  #   where:
+  #   description: |
+  #     2019 프랑스 샬롱 거리예술축제(Chalon dans la Rue) 공식초청
+  #     2018 스페인 바르셀로나 Grec Festival 공식초청
+  #     2018 폴란드 크라쿠프 ULICA-International Street Theatre Festival 공식초청
+  #     2018 폴란드 그단스크 FETA Festival 공식초청
+  #   bg-image: 20170622/spain.jpg
+  #   link: /work/masseur/
+  #   long-image:
+  #   ticket:
+  #   ticket_text:
   - title: 비주얼씨어터 꽃의 작품세계
     when:
     where:

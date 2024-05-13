@@ -9,8 +9,11 @@ featured_image: s31.jpg
 meta: |
   - Creation year: 2007
   - Type: Painting Performance
-  - Creator: Lee Cheol-Sung
-  - Performer: Lee Cheol-Sung, Lee Jung-Hoon, Park Jong-Geun
+  - Creator & director: Cheolsung Lee
+  - Performer: Cheolsung Lee, Jihyeong Lee
+  - Music : Junghoon Lee
+  - Lightening & Video : Jihyeong Lee
+  - Sound : Soul Moon
   - Running time : 40"
   - Materials : painting, image
 ---

@@ -6,10 +6,17 @@ introduction: |
   시각예술과 공연예술을 혼합한 새로운 형식과 내밀한 예술적 세련미! 공연사업과 교육프로그램을 운영합니다.
 
 slides:
+  - title: 호일, 구겨진
+    when: 2026년 5월 16, 17일 (토,일) 오후 3시
+    where: 2026 수원연극축제 (경기상상캠퍼스)
+    description: ""
+    bg-image: 20260510.jpg
+    ticket: /work/strange-massage-skill/
+    ticket_text: 공연 정보
   - title: 페인팅 퍼포먼스 '자화상'
     when: 2024년 5월 18, 19일 (토,일) 19:30
     where: 2024 수원연극축제 (경기상상캠퍼스)
-    description: ''
+    description: ""
     bg-image: 20240512/s31.jpg
     ticket: /work/self-portrait/
     ticket_text: 공연 정보
@@ -68,23 +75,23 @@ en:
     CCOT'(is a 'flower' in Korean) is the troupe of performers, painters and musicians.
     'CCOT' has worked on alternative spaces and outdoor, exploring the depths of life through integrating the mediums of poetry, painting, installation art, and video art.
   slides:
-  - title: A Strange Massage Skill for You
-    when:
-    where:
-    description: |
-      West Seoul Arts Center for Learning
-      2023.09.09(SAT)~10(SUN) 17:00
-    bg-image: 20230825/banner.jpg
-    link: /en/work/strange-massage-skill/
-    long-image: 20230825/long.jpg
-    ticket: https://naver.me/x9cl1g2O
-    ticket_text: Reservation
-  - title: The Works of CCOT
-    when:
-    where:
-    description:
-    bg-image: 2021/0QMDFGLBizk.jpg
-    link: https://www.youtube.com/watch?v=0QMDFGLBizk
-    long-image: 
-    ticket:
-    ticket_text:
+    - title: A Strange Massage Skill for You
+      when:
+      where:
+      description: |
+        West Seoul Arts Center for Learning
+        2023.09.09(SAT)~10(SUN) 17:00
+      bg-image: 20230825/banner.jpg
+      link: /en/work/strange-massage-skill/
+      long-image: 20230825/long.jpg
+      ticket: https://naver.me/x9cl1g2O
+      ticket_text: Reservation
+    - title: The Works of CCOT
+      when:
+      where:
+      description:
+      bg-image: 2021/0QMDFGLBizk.jpg
+      link: https://www.youtube.com/watch?v=0QMDFGLBizk
+      long-image:
+      ticket:
+      ticket_text:

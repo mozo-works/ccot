@@ -4,7 +4,7 @@ title: 호일, 구겨진
 description: ‘호일 존재들이 펼치는 자연순환의 이야기!’
 img: strange
 video: 
-featured_image: 0-featured1.jpg
+featured_image: 제목 없음-1.jpg
 meta: |
   - 창작년도 : 2026
   - 형식구분 : #공공공간 #관객참여 #오브제극 #설치+퍼포먼스 #제의식 

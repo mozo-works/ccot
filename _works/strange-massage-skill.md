@@ -3,7 +3,8 @@ wid: 19
 title: 호일, 구겨진
 description: ‘호일 존재들이 펼치는 자연순환의 이야기!’
 img: strange
-video: 
+video:
+  - BYnx6dAlris
 featured_image: 제목 없음-1.jpg
 meta: |
   - 창작년도 : 2026
